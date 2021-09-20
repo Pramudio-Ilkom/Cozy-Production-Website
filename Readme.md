@@ -6,6 +6,6 @@ ERSend Merupakan aplikasi jasa pengiriman yang memiliki sistem "add-ons" didalam
 ![icon ERS](./PNGs/ERSLogo.png)
 
 # Contributors
-- [Pramudio](https://github.com/Pramudio-Ilkom)
-- [Nehemiah Austen Pison](https://github.com/EzraelVio)
-- [Muhammad Raffi Athallah Miraza](https://github.com/rafimir20)
+- [Pramudio](https://github.com/Pramudio-Ilkom)                   -> 1313619013
+- [Nehemiah Austen Pison](https://github.com/EzraelVio)           -> 1313619021
+- [Muhammad Raffi Athallah Miraza](https://github.com/rafimir20)  -> 1313619026
