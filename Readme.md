@@ -1,9 +1,9 @@
 # Cozy Production Website
 Cozy Production merupakan lingkar karya yang dibangun oleh Joshua Christian Raymod. 
 
-Website ini dibangun untuk menyambungkan Cozy Production dengan dunia maya, mempermudah cozy production untuk menjual produknya dan menerbitkan artikel. 
+Website ini dibangun untuk menyambungkan Cozy Production dengan dunia maya, mempermudah cozy production untuk menjual produknya dan menerbitkan artikel.
 
-![icon CozyPro](./PNGs/hatosan-2.png)
+<img src ="./PNGs/hatosan-2.png" width="128" />
 
 # Contributors
 - [Pramudio](https://github.com/Pramudio-Ilkom)                   -> 1313619013
