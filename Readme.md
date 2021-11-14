@@ -3,7 +3,9 @@ Cozy Production merupakan lingkar karya yang dibangun oleh Joshua Christian Raym
 
 Website ini dibangun untuk menyambungkan Cozy Production dengan dunia maya, mempermudah cozy production untuk menjual produknya dan menerbitkan artikel.
 
-<img src ="./PNGs/hatosan-2.png" width="128" />
+<p align="center">
+	<img src ="./PNGs/hatosan-2.png" width="128" />
+</p>
 
 # Contributors
 - [Pramudio](https://github.com/Pramudio-Ilkom)                   -> 1313619013
