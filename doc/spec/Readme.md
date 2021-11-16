@@ -1,11 +1,11 @@
 # Site Identity
 
-Nama Website		: CozyPro
-Jenis Website		: Website Toko Online
-Author			: Nehemiah Austen Pison, Muhammad Raffi Athallah Miraza, Pramudio
-Pemilik			: Joshua Christian Raymond
-Languages		: HTML, CSS, Java Script
-Frameworks		: Bootstrap
+- Nama Website		: CozyPro
+- Jenis Website		: Website Toko Online
+- Author			    : Nehemiah Austen Pison, Muhammad Raffi Athallah Miraza, Pramudio
+- Pemilik		  	  : Joshua Christian Raymond
+- Languages		    : HTML, CSS, Java Script
+- Frameworks	  	: Bootstrap
 
 
 # Feature
