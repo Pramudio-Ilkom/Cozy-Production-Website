@@ -1,6 +1,12 @@
 # Site Identity
 
-Website Cozy production merupakan penyambung Cozy production terhadap dunia maya. Didalam web ini, akan menunjukkan kreatifitas lingkar karya kreatif cozy production serta memberikan mereka media untuk menjual produk-produk yang mereka buat. tidak hanya itu, website ini akan menyediakan tempat untuk lingkar karya kreatif cozyproduction untuk mengunggah artikel.
+Nama Website		: CozyPro
+Jenis Website		: Website Toko Online
+Author			: Nehemiah Austen Pison, Muhammad Raffi Athallah Miraza, Pramudio
+Pemilik			: Joshua Christian Raymond
+Languages		: HTML, CSS, Java Script
+Frameworks		: Bootstrap
+
 
 # Feature
 
