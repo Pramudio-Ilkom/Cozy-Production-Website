@@ -10,6 +10,16 @@ Website Cozy production merupakan penyambung Cozy production terhadap dunia maya
 # Website Link
 https://cozypro.xyz/
 
+# Primary Feature
+- Membuat Blog
+
+# Mock up yang terpilih
+<p align="center">
+	<img src ="./doc/sketch/Mockup_2(terpilih).jpg" width="128" />
+</p>
+
+
+
 # Contributors
 - [Pramudio](https://github.com/Pramudio-Ilkom)                   -> 1313619013
 - [Nehemiah Austen Pison](https://github.com/EzraelVio)           -> 1313619021
