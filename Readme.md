@@ -15,7 +15,7 @@ https://cozypro.xyz/
 
 # Mock up yang terpilih
 <p align="center">
-	<img src ="./doc/sketch/Mockup_2(terpilih).jpg" width="128" />
+	<img src ="./doc/sketch/Mockup_2(terpilih).jpg"/>
 </p>
 
 
