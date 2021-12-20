@@ -11,7 +11,7 @@ Website Cozy production merupakan penyambung Cozy production terhadap dunia maya
 https://cozypro.xyz/
 
 <p href ="./doc/spec/List of Feature.pdf">
-	List of Feature <href
+	List of Feature
 </p>
 
 # Progress
