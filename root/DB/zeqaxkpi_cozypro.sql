@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 20, 2021 at 08:20 AM
+-- Generation Time: Dec 21, 2021 at 08:48 PM
 -- Server version: 10.3.32-MariaDB
 -- PHP Version: 7.3.33
 
@@ -403,7 +403,69 @@ INSERT INTO `audit_histories` (`id`, `user_id`, `module`, `request`, `action`, `
 (292, 1, 'product-tag', '{\"ids\":[\"5\",\"4\",\"3\",\"2\",\"1\"],\"class\":\"Botble\\\\Ecommerce\\\\Tables\\\\ProductTagTable\"}', 'deleted', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.29.105.163', 1, 1, 'Wallet', 'danger', '2021-12-19 19:09:00', '2021-12-19 19:09:00'),
 (293, 1, 'to the system', NULL, 'logged in', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.29.105.163', 0, 1, 'System Admin', 'info', '2021-12-20 00:13:34', '2021-12-20 00:13:34'),
 (294, 1, 'to the system', NULL, 'logged in', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62', '112.215.235.130', 0, 1, 'System Admin', 'info', '2021-12-20 00:56:04', '2021-12-20 00:56:04'),
-(295, 1, 'plugin-shipping', '{\"id\":\"1\"}', 'deleted', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62', '112.215.235.130', 1, 1, 'All', 'danger', '2021-12-20 01:00:23', '2021-12-20 01:00:23');
+(295, 1, 'plugin-shipping', '{\"id\":\"1\"}', 'deleted', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.62', '112.215.235.130', 1, 1, 'All', 'danger', '2021-12-20 01:00:23', '2021-12-20 01:00:23'),
+(296, 1, 'to the system', NULL, 'logged in', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 0, 1, 'System Admin', 'info', '2021-12-21 03:48:50', '2021-12-21 03:48:50'),
+(297, 1, 'to the system', NULL, 'logged in', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 0, 1, 'System Admin', 'info', '2021-12-21 03:48:51', '2021-12-21 03:48:51'),
+(298, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Seelow Heights\",\"slug\":\"seelow-heights\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Kyokaz<br>Pixiv: https:\\/\\/www.pixiv.net\\/en\\/users\\/19451821<\\/p>\",\"content\":\"<p>Depiksi pertempuran Seelow Heights oleh artis kami Bang Kyokaz<\\/p>\",\"images\":[null,\"mockup\\/posters\\/seelow-a.png\",\"mockup\\/posters\\/seelow-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"42\",\"height\":\"29.7\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"1\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 87, 'Seelow Heights', 'info', '2021-12-21 04:15:12', '2021-12-21 04:15:12'),
+(299, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Seelow Heights\",\"slug\":\"seelow-heights\",\"slug_id\":\"206\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist:<\\/p><p>Kyokaz<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/19451821\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Depiksi pertempuran Seelow Heights oleh artis kami Bang Kyokaz<\\/p>\",\"images\":[null,\"mockup\\/posters\\/seelow-a.png\",\"mockup\\/posters\\/seelow-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"42.00\",\"height\":\"29.70\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"1\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 87, 'Seelow Heights', 'primary', '2021-12-21 04:20:08', '2021-12-21 04:20:08'),
+(300, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Seelow Heights\",\"slug\":\"seelow-heights\",\"slug_id\":\"206\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Kyokaz<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/19451821\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Depiksi pertempuran Seelow Heights oleh artis kami Bang Kyokaz<\\/p>\",\"images\":[null,\"mockup\\/posters\\/seelow-a.png\",\"mockup\\/posters\\/seelow-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"42.00\",\"height\":\"29.70\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"1\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 87, 'Seelow Heights', 'primary', '2021-12-21 04:20:38', '2021-12-21 04:20:38');
+INSERT INTO `audit_histories` (`id`, `user_id`, `module`, `request`, `action`, `user_agent`, `ip_address`, `reference_user`, `reference_id`, `reference_name`, `type`, `created_at`, `updated_at`) VALUES
+(301, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Leningrad\",\"slug\":\"leningrad\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Kyokaz<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/19451821\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Depiksi pertempuran Leningrad oleh artis kami Bang Kyokaz<\\/p>\",\"images\":[null,\"mockup\\/posters\\/leningrad-a.png\",\"mockup\\/posters\\/leningrad-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":\"87\",\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 88, 'Leningrad', 'info', '2021-12-21 04:29:24', '2021-12-21 04:29:24'),
+(302, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Snowstorm\",\"slug\":\"snowstorm\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Cyka<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/19451821\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Karakter GFL AK-12 DKK oleh artis kami Cyka<\\/p>\",\"images\":[null,\"mockup\\/posters\\/snowstorm-a.png\",\"mockup\\/posters\\/snowstorm-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 89, 'Snowstorm', 'info', '2021-12-21 04:36:28', '2021-12-21 04:36:28'),
+(303, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Leningrad\",\"slug\":\"leningrad\",\"slug_id\":\"207\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Kyokaz<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/19451821\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Depiksi pertempuran Leningrad oleh artis kami Bang Kyokaz<\\/p>\",\"images\":[null,\"mockup\\/posters\\/leningrad-a.png\",\"mockup\\/posters\\/leningrad-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":\"87\",\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 88, 'Leningrad', 'primary', '2021-12-21 04:36:43', '2021-12-21 04:36:43'),
+(304, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Jump\",\"slug\":\"jump\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: BlackboltLW<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/1841498\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Karakter original dari artis kami BlackboltLW<\\/p>\",\"images\":[null,\"mockup\\/posters\\/jump-a.png\",\"mockup\\/posters\\/jump-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 90, 'Jump', 'info', '2021-12-21 04:53:58', '2021-12-21 04:53:58'),
+(305, 1, 'product-category', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Girls Frontline\",\"slug\":\"girls-frontline\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\ProductCategory\",\"parent_id\":\"12\",\"description\":null,\"order\":\"3\",\"status\":\"published\",\"image\":null,\"is_featured\":\"0\",\"icon\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\"}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 34, 'Girls Frontline', 'info', '2021-12-21 04:54:47', '2021-12-21 04:54:47'),
+(306, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Snowstorm\",\"slug\":\"snowstorm\",\"slug_id\":\"208\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Cyka<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/19451821\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Karakter GFL AK-12 DKK oleh artis kami Cyka<\\/p>\",\"images\":[null,\"mockup\\/posters\\/snowstorm-a.png\",\"mockup\\/posters\\/snowstorm-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"34\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 89, 'Snowstorm', 'primary', '2021-12-21 04:55:14', '2021-12-21 04:55:14'),
+(307, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Jump\",\"slug\":\"jump\",\"slug_id\":\"209\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: BlackboltLW<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/1841498\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Karakter original dari artis kami BlackboltLW<\\/p>\",\"images\":[null,\"mockup\\/posters\\/jump-a.png\",\"mockup\\/posters\\/jump-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 90, 'Jump', 'primary', '2021-12-21 04:55:31', '2021-12-21 04:55:31'),
+(308, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Shoot\",\"slug\":\"shoot\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: BlackboltLW<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/1841498\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Karakter original dari artis kami BlackboltLW<\\/p>\",\"images\":[null,\"mockup\\/posters\\/shoot-a.png\",\"mockup\\/posters\\/shoot-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"on_backorder\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 91, 'Shoot', 'info', '2021-12-21 04:59:00', '2021-12-21 04:59:00'),
+(309, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Shoot\",\"slug\":\"shoot\",\"slug_id\":\"211\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: BlackboltLW<br><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/1841498\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Karakter original dari artis kami BlackboltLW<\\/p>\",\"images\":[null,\"mockup\\/posters\\/shoot-a.png\",\"mockup\\/posters\\/shoot-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 91, 'Shoot', 'primary', '2021-12-21 04:59:51', '2021-12-21 04:59:51'),
+(310, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Amiyaaaaa\",\"slug\":\"amiyaaaaa\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Yoppai<\\/p>\",\"content\":\"<p>Karakter Arknights dari artis kami Yoppai<\\/p>\",\"images\":[null,\"mockup\\/posters\\/amiyaaaaa-a.png\",\"mockup\\/posters\\/amiyaaaaa-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 92, 'Amiyaaaaa', 'info', '2021-12-21 05:09:49', '2021-12-21 05:09:49'),
+(311, 1, 'product-category', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Arknights\",\"slug\":\"arknights\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\ProductCategory\",\"parent_id\":\"12\",\"description\":null,\"order\":\"3\",\"status\":\"published\",\"image\":null,\"is_featured\":\"0\",\"icon\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\"}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 35, 'Arknights', 'info', '2021-12-21 05:11:04', '2021-12-21 05:11:04'),
+(312, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Amiyaaaaa\",\"slug\":\"amiyaaaaa\",\"slug_id\":\"212\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Yoppai<\\/p>\",\"content\":\"<p>Karakter Arknights dari artis kami Yoppai<\\/p>\",\"images\":[null,\"mockup\\/posters\\/amiyaaaaa-a.png\",\"mockup\\/posters\\/amiyaaaaa-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"35\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 92, 'Amiyaaaaa', 'primary', '2021-12-21 05:11:25', '2021-12-21 05:11:25'),
+(313, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Kaos\",\"slug\":\"kaos\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Yoppai<\\/p>\",\"content\":\"<p>Mahluk lucu dalam armor WH 40K dari artis kami Yoppai<\\/p>\",\"images\":[null,\"mockup\\/posters\\/kaos-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 93, 'Kaos', 'info', '2021-12-21 05:19:50', '2021-12-21 05:19:50'),
+(314, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Nanban\",\"slug\":\"nanban\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Yoppai<\\/p>\",\"content\":\"<p>Samurai oleh artist kami Yoppai<\\/p>\",\"images\":[null,\"mockup\\/posters\\/nanban-a.png\",\"mockup\\/posters\\/nanban-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 94, 'Nanban', 'info', '2021-12-21 05:22:13', '2021-12-21 05:22:13'),
+(315, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Stalingrad\",\"slug\":\"stalingrad\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Yoppai<\\/p>\",\"content\":\"<p>Depiksi pertempuran Stalingrad oleh artist kami Yoppai<\\/p>\",\"images\":[null,\"mockup\\/posters\\/nanban-a.png\",\"mockup\\/posters\\/nanban-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 95, 'Stalingrad', 'info', '2021-12-21 05:24:29', '2021-12-21 05:24:29'),
+(316, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Stalingrad\",\"slug\":\"stalingrad\",\"slug_id\":\"216\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: Yoppai<\\/p>\",\"content\":\"<p>Depiksi pertempuran Stalingrad oleh artist kami Yoppai<\\/p>\",\"images\":[null,\"mockup\\/posters\\/stalingrad-a.png\",\"mockup\\/posters\\/stalingrad-b.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"30000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"12\",\"33\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 95, 'Stalingrad', 'primary', '2021-12-21 05:33:10', '2021-12-21 05:33:10'),
+(317, 1, 'product-category', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Posters\",\"slug\":\"posters\",\"slug_id\":\"85\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\ProductCategory\",\"parent_id\":\"0\",\"description\":null,\"order\":\"3\",\"status\":\"published\",\"image\":\"image-2.jpg\",\"is_featured\":\"1\",\"language\":\"en_US\",\"icon\":\"fa fa-image\",\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\"}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 12, 'Posters', 'primary', '2021-12-21 05:44:32', '2021-12-21 05:44:32'),
+(318, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Asumsi Gas Ideal\",\"slug\":\"asumsi-gas-ideal\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>Asumsi gas ideal<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/asumsigasidela.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 96, 'Asumsi Gas Ideal', 'info', '2021-12-21 05:55:30', '2021-12-21 05:55:30'),
+(319, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"P-38\",\"slug\":\"p-38\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":null,\"images\":[null,\"mockup\\/postcards\\/p-38.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 97, 'P-38', 'info', '2021-12-21 05:58:21', '2021-12-21 05:58:21'),
+(320, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"A6M2\",\"slug\":\"a6m2\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>A6M2<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/a6m2.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"0\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 98, 'A6M2', 'info', '2021-12-21 05:58:57', '2021-12-21 05:58:57'),
+(321, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"P-38\",\"slug\":\"p-38\",\"slug_id\":\"218\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>P-38<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/p-38.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 97, 'P-38', 'primary', '2021-12-21 05:59:13', '2021-12-21 05:59:13'),
+(322, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Dislokasi\",\"slug\":\"dislokasi\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>Dislokasi<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/dislokasi-2.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 99, 'Dislokasi', 'info', '2021-12-21 05:59:50', '2021-12-21 05:59:50'),
+(323, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"A6M2\",\"slug\":\"a6m2\",\"slug_id\":\"219\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>A6M2<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/a6m2.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 98, 'A6M2', 'primary', '2021-12-21 06:00:13', '2021-12-21 06:00:13'),
+(324, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Dislokasi\",\"slug\":\"dislokasi\",\"slug_id\":\"220\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>Dislokasi<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/dislokasi-2.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 99, 'Dislokasi', 'primary', '2021-12-21 06:00:39', '2021-12-21 06:00:39'),
+(325, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"UU-iTE\",\"slug\":\"uu-ite\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>UU-ITE<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/uu-ite.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 100, 'UU-iTE', 'info', '2021-12-21 06:01:15', '2021-12-21 06:01:15'),
+(326, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"NMAX Community\",\"slug\":\"nmax-community\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>NMAX Community<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/nmax.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 101, 'NMAX Community', 'info', '2021-12-21 06:06:38', '2021-12-21 06:06:38'),
+(327, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Jump And Shoot\",\"slug\":\"jump-and-shoot\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Artist: BlackboltLW<\\/p><p><a href=\\\"https:\\/\\/www.pixiv.net\\/en\\/users\\/1841498\\\">Pixiv<\\/a><\\/p>\",\"content\":\"<p>Postcard Jump And Shoot oleh artist kami BlackboltLW<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/jumpnshoot.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 102, 'Jump And Shoot', 'info', '2021-12-21 06:08:03', '2021-12-21 06:08:03'),
+(328, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Sistem Tidak Stabil\",\"slug\":\"sistem-tidka-stabil\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>Sistem Tidak Stabil<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/tidakstabil.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 103, 'Sistem Tidak Stabil', 'info', '2021-12-21 06:09:04', '2021-12-21 06:09:04'),
+(329, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Waifu Victis\",\"slug\":\"waifu-victis\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>Buku kolaborasi antara Cozy Production dan Rimawarna yang berisikan <i>moe<\\/i>-fikasi dari tokoh-tokoh penjajah terkenal dunia<\\/p>\",\"images\":[null,\"mockup\\/books\\/waifu-victis\\/wv-1.png\",\"mockup\\/books\\/waifu-victis\\/wv-2.png\",\"mockup\\/books\\/waifu-victis\\/wv-4.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"50000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"31\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 104, 'Waifu Victis', 'info', '2021-12-21 07:28:53', '2021-12-21 07:28:53'),
+(330, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Asumsi Gas Ideal\",\"slug\":\"asumsi-gas-ideal\",\"slug_id\":\"217\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>Asumsi gas ideal<\\/p>\",\"images\":[null,\"mockup\\/postcards\\/asumsigasidela.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"10000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"17\"],\"brand_id\":\"0\",\"product_collections\":[\"1\"],\"product_labels\":[\"2\"],\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 96, 'Asumsi Gas Ideal', 'primary', '2021-12-21 07:29:39', '2021-12-21 07:29:39'),
+(331, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Waifu Victis\",\"slug\":\"waifu-victis\",\"slug_id\":\"225\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>Buku kolaborasi antara Cozy Production dan Rimawarna yang berisikan <i>moe<\\/i>-fikasi dari tokoh-tokoh penjajah terkenal dunia<\\/p>\",\"images\":[null,\"mockup\\/books\\/waifu-victis\\/wv-1.png\",\"mockup\\/books\\/waifu-victis\\/wv-2.png\",\"mockup\\/books\\/waifu-victis\\/wv-4.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"50000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"1\",\"categories\":[\"31\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 104, 'Waifu Victis', 'primary', '2021-12-21 07:29:48', '2021-12-21 07:29:48'),
+(332, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Tempe Penyet\",\"slug\":\"tempe-penyet\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>Tempe penyet<\\/p>\",\"images\":[null,\"mockup\\/shirts\\/tempepenyet.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"100000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"32\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 105, 'Tempe Penyet', 'info', '2021-12-21 08:14:12', '2021-12-21 08:14:12'),
+(333, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Ora Udud Paru-paru Ora Smile\",\"slug\":\"ora-udud-paru-paru-ora-smile\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":null,\"content\":\"<p>Ora Udud Paru-paru Ora Smileeeeeee<\\/p>\",\"images\":[null,\"mockup\\/shirts\\/oraudud.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"100000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"32\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 106, 'Ora Udud Paru-paru Ora Smile', 'info', '2021-12-21 08:15:01', '2021-12-21 08:15:01'),
+(334, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"I Don\'t Speak Anime\",\"slug\":\"i-dont-speak-anime\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>ukuran S - XXL<br>bahan katun<\\/p>\",\"content\":\"<p>kaos I Don\'t Speak Anime<\\/p>\",\"images\":[null,\"mockup\\/shirts\\/idontspeak.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"100000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"32\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 107, 'I Don\'t Speak Anime', 'info', '2021-12-21 08:16:41', '2021-12-21 08:16:41'),
+(335, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Ora Udud Paru-paru Ora Smile\",\"slug\":\"ora-udud-paru-paru-ora-smile\",\"slug_id\":\"227\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>ukuran S - XXL<br>bahan katun<\\/p>\",\"content\":\"<p>Ora Udud Paru-paru Ora Smileeeeeee<\\/p>\",\"images\":[null,\"mockup\\/shirts\\/oraudud.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"100000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"32\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 106, 'Ora Udud Paru-paru Ora Smile', 'primary', '2021-12-21 08:16:52', '2021-12-21 08:16:52'),
+(336, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Tempe Penyet\",\"slug\":\"tempe-penyet\",\"slug_id\":\"226\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>ukuran S - XXL<br>bahan katun<\\/p>\",\"content\":\"<p>Tempe penyet<\\/p>\",\"images\":[null,\"mockup\\/shirts\\/tempepenyet.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"100000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0.00\",\"length\":\"0.00\",\"wide\":\"0.00\",\"height\":\"0.00\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"language\":\"en_US\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"32\"],\"brand_id\":\"0\",\"tag\":null}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 105, 'Tempe Penyet', 'primary', '2021-12-21 08:17:07', '2021-12-21 08:17:07'),
+(337, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"I hate Kids With Anime Profile Pic\",\"slug\":\"i-hate-kids-with-anime-profile-pic\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>ukuran S - XXL<br>bahan katun<\\/p>\",\"content\":\"<p>I hate Kids With ANime Profile Pic<\\/p>\",\"images\":[null,\"mockup\\/shirts\\/ihatekids.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"100000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"out_of_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"1\",\"categories\":[\"32\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 108, 'I hate Kids With Anime Profile Pic', 'info', '2021-12-21 08:18:22', '2021-12-21 08:18:22'),
+(338, 1, 'plugin-order', '{\"ids\":[\"23\",\"21\"],\"class\":\"Botble\\\\Ecommerce\\\\Tables\\\\OrderTable\"}', 'deleted', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 23, 'ID: 23', 'danger', '2021-12-21 08:19:00', '2021-12-21 08:19:00'),
+(339, 1, 'plugin-order', '{\"ids\":[\"23\",\"21\"],\"class\":\"Botble\\\\Ecommerce\\\\Tables\\\\OrderTable\"}', 'deleted', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 21, 'ID: 21', 'danger', '2021-12-21 08:19:01', '2021-12-21 08:19:01'),
+(340, 1, 'plugin-order', '{\"ids\":[\"24\",\"22\"],\"class\":\"Botble\\\\Ecommerce\\\\Tables\\\\OrderIncompleteTable\"}', 'deleted', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 24, 'ID: 24', 'danger', '2021-12-21 08:19:21', '2021-12-21 08:19:21'),
+(341, 1, 'plugin-order', '{\"ids\":[\"24\",\"22\"],\"class\":\"Botble\\\\Ecommerce\\\\Tables\\\\OrderIncompleteTable\"}', 'deleted', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 22, 'ID: 22', 'danger', '2021-12-21 08:19:21', '2021-12-21 08:19:21'),
+(342, 1, 'product', '[]', 'deleted', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 86, 'Testing', 'danger', '2021-12-21 08:19:41', '2021-12-21 08:19:41'),
+(343, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Sticker Pack Cursed\",\"slug\":\"sticker-pack-cursed\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Kumpulan stiker dengan tema cursed<\\/p>\",\"content\":\"<p>Kumpulan stiker dengan tema cursed pilihan dari Cozy Production<\\/p>\",\"images\":[null,\"mockup\\/stickers\\/stikercursed.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"40000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"18\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 109, 'Sticker Pack Cursed', 'info', '2021-12-21 08:35:53', '2021-12-21 08:35:53'),
+(344, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Sticker Pack WA\",\"slug\":\"sticker-pack-wa\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Kumpulan stiker dengan tema WA<\\/p>\",\"content\":\"<p>Kumpulan stiker dengan tema WA pilihan dari Cozy Production<\\/p>\",\"images\":[null,\"mockup\\/stickers\\/stikerwa.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"40000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"18\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 110, 'Sticker Pack WA', 'info', '2021-12-21 08:36:55', '2021-12-21 08:36:55'),
+(345, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Sticker Pack Vtuber\",\"slug\":\"sticker-pack-vtuber\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Kumpulan stiker dengan tema Vtuber<\\/p>\",\"content\":\"<p>Kumpulan stiker dengan tema Vtuber pilihan Cozy Production<\\/p>\",\"images\":[null,\"mockup\\/stickers\\/stikervtuber.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"40000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"1\",\"categories\":[\"18\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 111, 'Sticker Pack Vtuber', 'info', '2021-12-21 08:37:56', '2021-12-21 08:37:56');
+INSERT INTO `audit_histories` (`id`, `user_id`, `module`, `request`, `action`, `user_agent`, `ip_address`, `reference_user`, `reference_id`, `reference_name`, `type`, `created_at`, `updated_at`) VALUES
+(346, 1, 'product', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Sticker Pack Reaction\",\"slug\":\"sticker-pack-reaction\",\"slug_id\":\"0\",\"model\":\"Botble\\\\Ecommerce\\\\Models\\\\Product\",\"description\":\"<p>Kumpulan stiker dengan tema Reaction images<\\/p>\",\"content\":\"<p>Kumpulan stiker dengan tema Reaction images pilihan Cozy Production<\\/p>\",\"images\":[null,\"mockup\\/stickers\\/stikerreaction.png\"],\"sale_type\":\"0\",\"sku\":null,\"price\":\"40000\",\"sale_price\":null,\"start_date\":null,\"end_date\":null,\"with_storehouse_management\":\"0\",\"quantity\":\"0\",\"allow_checkout_when_out_of_stock\":\"0\",\"stock_status\":\"in_stock\",\"weight\":\"0\",\"length\":\"0\",\"wide\":\"0\",\"height\":\"0\",\"related_products\":null,\"cross_sale_products\":null,\"seo_meta\":{\"seo_title\":null,\"seo_description\":null},\"submit\":\"save\",\"layout\":\"product-right-sidebar\",\"status\":\"published\",\"is_featured\":\"0\",\"categories\":[\"18\"],\"brand_id\":\"0\",\"tag\":null}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 112, 'Sticker Pack Reaction', 'info', '2021-12-21 08:39:08', '2021-12-21 08:39:08'),
+(347, 1, 'menu', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Main menu\",\"deleted_nodes\":null,\"menu_nodes\":\"[{\\\"id\\\":\\\"69\\\",\\\"title\\\":\\\"Beranda\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"customUrl\\\":\\\"https:\\/\\/cozypro.xyz\\/\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":0,\\\"children\\\":[]},{\\\"customUrl\\\":\\\"https:\\/\\/cozypro.xyz\\/produk\\\",\\\"id\\\":\\\"11\\\",\\\"title\\\":\\\"Toko\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":1,\\\"children\\\":[]},{\\\"id\\\":\\\"15\\\",\\\"title\\\":\\\"Jurnal\\\",\\\"referenceId\\\":\\\"5\\\",\\\"referenceType\\\":\\\"Botble\\\\\\\\Page\\\\\\\\Models\\\\\\\\Page\\\",\\\"customUrl\\\":\\\"\\/blog\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":2,\\\"children\\\":[]},{\\\"id\\\":\\\"70\\\",\\\"title\\\":\\\"Login \\/ Register\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"customUrl\\\":\\\"https:\\/\\/cozypro.xyz\\/login\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":3,\\\"children\\\":[]}]\",\"target\":\"_self\",\"title\":\"Login \\/ Register\",\"custom-url\":\"https:\\/\\/cozypro.xyz\\/login\",\"icon-font\":null,\"class\":null,\"locations\":[\"main-menu\"],\"submit\":\"save\",\"language\":\"en_US\",\"ref_from\":null,\"status\":\"published\"}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 1, 'Main menu', 'primary', '2021-12-21 10:06:49', '2021-12-21 10:06:49'),
+(348, 1, 'menu_location', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Main menu\",\"deleted_nodes\":null,\"menu_nodes\":\"[{\\\"id\\\":\\\"69\\\",\\\"title\\\":\\\"Beranda\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"customUrl\\\":\\\"https:\\/\\/cozypro.xyz\\/\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":0,\\\"children\\\":[]},{\\\"customUrl\\\":\\\"https:\\/\\/cozypro.xyz\\/produk\\\",\\\"id\\\":\\\"11\\\",\\\"title\\\":\\\"Toko\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":1,\\\"children\\\":[]},{\\\"id\\\":\\\"15\\\",\\\"title\\\":\\\"Jurnal\\\",\\\"referenceId\\\":\\\"5\\\",\\\"referenceType\\\":\\\"Botble\\\\\\\\Page\\\\\\\\Models\\\\\\\\Page\\\",\\\"customUrl\\\":\\\"\\/blog\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":2,\\\"children\\\":[]},{\\\"id\\\":\\\"70\\\",\\\"title\\\":\\\"Login \\/ Register\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"customUrl\\\":\\\"https:\\/\\/cozypro.xyz\\/login\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":3,\\\"children\\\":[]}]\",\"target\":\"_self\",\"title\":\"Login \\/ Register\",\"custom-url\":\"https:\\/\\/cozypro.xyz\\/login\",\"icon-font\":null,\"class\":null,\"locations\":[\"main-menu\"],\"submit\":\"save\",\"language\":\"en_US\",\"ref_from\":null,\"status\":\"published\"}', 'created', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 1, 'ID: 1', 'info', '2021-12-21 10:06:49', '2021-12-21 10:06:49'),
+(349, 1, 'menu', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Informasi\",\"deleted_nodes\":null,\"menu_nodes\":\"[{\\\"customUrl\\\":\\\"https:\\/\\/www.facebook.com\\/BerkaryaDenganSantai\\\",\\\"id\\\":\\\"67\\\",\\\"title\\\":\\\"Hubungi kami (Facebook)\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":0,\\\"children\\\":[]},{\\\"id\\\":\\\"71\\\",\\\"title\\\":\\\"Tentang Cozypro\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"customUrl\\\":\\\"\\/\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":1,\\\"children\\\":[]}]\",\"target\":\"_self\",\"title\":\"Tentang Cozypro\",\"custom-url\":\"\\/\",\"icon-font\":null,\"class\":null,\"submit\":\"save\",\"language\":\"en_US\",\"ref_from\":null,\"status\":\"published\"}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 3, 'Informasi', 'primary', '2021-12-21 10:07:51', '2021-12-21 10:07:51'),
+(350, 1, 'menu', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"name\":\"Informasi\",\"deleted_nodes\":null,\"menu_nodes\":\"[{\\\"title\\\":\\\"Hubungi kami di Facebook\\\",\\\"id\\\":\\\"67\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"customUrl\\\":\\\"https:\\/\\/www.facebook.com\\/BerkaryaDenganSantai\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":0,\\\"children\\\":[]},{\\\"id\\\":\\\"71\\\",\\\"title\\\":\\\"Tentang Cozypro\\\",\\\"referenceId\\\":\\\"0\\\",\\\"referenceType\\\":\\\"\\\",\\\"customUrl\\\":\\\"\\/\\\",\\\"class\\\":\\\"\\\",\\\"target\\\":\\\"_self\\\",\\\"iconFont\\\":\\\"\\\",\\\"position\\\":1,\\\"children\\\":[]}]\",\"target\":\"_self\",\"title\":\"Tentang Cozypro\",\"custom-url\":\"\\/\",\"icon-font\":null,\"class\":null,\"submit\":\"save\",\"language\":\"en_US\",\"ref_from\":null,\"status\":\"published\"}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 3, 'Informasi', 'primary', '2021-12-21 10:11:05', '2021-12-21 10:11:05'),
+(351, 1, 'simple-slider-item', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"simple_slider_id\":\"3\",\"subtitle\":\"Baru!\",\"title\":\"TELAH TERBIT\",\"highlight_text\":\"WAIFU VICTIS\",\"link\":\"#\",\"button_text\":\"Cek Sekarang\",\"description\":\"Buku baru karya Cozy Production dan Rimawarna. Buku ini berisi tokoh-tokoh penakluk besar di dunia dalam style gambar anime.\",\"order\":\"1\",\"image\":\"sliders\\/carousel-a.jpg\"}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 7, 'TELAH TERBIT', 'primary', '2021-12-21 10:23:00', '2021-12-21 10:23:00'),
+(352, 1, 'simple-slider-item', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"simple_slider_id\":\"3\",\"subtitle\":\"Baru!\",\"title\":\"TELAH TERBIT\",\"highlight_text\":\"WAIFU VICTIS\",\"link\":\"https:\\/\\/cozypro.xyz\\/produk\\/waifu-victis\",\"button_text\":\"Cek Sekarang\",\"description\":\"Buku baru karya Cozy Production dan Rimawarna. Buku ini berisi tokoh-tokoh penakluk besar di dunia dalam style gambar anime.\",\"order\":\"1\",\"image\":\"sliders\\/carousel-a.jpg\"}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 7, 'TELAH TERBIT', 'primary', '2021-12-21 10:23:32', '2021-12-21 10:23:32'),
+(353, 1, 'simple-slider-item', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"simple_slider_id\":\"3\",\"subtitle\":\"kembali lagi!\",\"title\":\"Sticker Pack\",\"highlight_text\":\"Cozy Production\",\"link\":\"https:\\/\\/cozypro.xyz\\/kat-produk\\/stickers\",\"button_text\":\"Cek Sekarang\",\"description\":null,\"order\":\"2\",\"image\":\"sliders\\/carousel-b.jpg\"}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 8, 'Sticker Pack', 'primary', '2021-12-21 10:28:07', '2021-12-21 10:28:07'),
+(354, 1, 'simple-slider-item', '{\"_token\":\"Bn0gb7xwHamcONHnKqkvh4W1z8YBuoIqCYvXNAlE\",\"simple_slider_id\":\"3\",\"subtitle\":\"Baru!\",\"title\":\"TELAH TERBIT\",\"highlight_text\":\"WAIFU VICTIS\",\"link\":\"https:\\/\\/cozypro.xyz\\/produk\\/waifu-victis\",\"button_text\":\"Cek Sekarang\",\"description\":\"Buku baru karya Cozy Production dan Rimawarna.\",\"order\":\"1\",\"image\":\"sliders\\/carousel-a.jpg\"}', 'updated', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '8.30.234.175', 1, 7, 'TELAH TERBIT', 'primary', '2021-12-21 10:28:33', '2021-12-21 10:28:33'),
+(355, 1, 'to the system', NULL, 'logged in', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36', '118.136.83.165', 0, 1, 'System Admin', 'info', '2021-12-21 11:17:53', '2021-12-21 11:17:53');
 
 -- --------------------------------------------------------
 
@@ -862,16 +924,6 @@ CREATE TABLE `ec_orders` (
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `ec_orders`
---
-
-INSERT INTO `ec_orders` (`id`, `user_id`, `shipping_option`, `shipping_method`, `status`, `amount`, `tax_amount`, `shipping_amount`, `description`, `coupon_code`, `discount_amount`, `sub_total`, `is_confirmed`, `discount_description`, `is_finished`, `token`, `payment_id`, `created_at`, `updated_at`) VALUES
-(21, 11, '3', 'default', 'pending', 100025.00, 0.00, 25.00, 'dd', NULL, 0.00, 100000.00, 0, NULL, 1, 'e946c9004bdc2d115ba1d94139dbe9e8', 21, '2021-12-07 11:57:22', '2021-12-07 11:58:08'),
-(22, 11, NULL, 'default', 'pending', 100000.00, 0.00, 0.00, NULL, NULL, 0.00, 100000.00, 0, NULL, 0, 'c7f30a193fb2f3484ed9422b95912e31', NULL, '2021-12-07 14:39:39', '2021-12-07 14:39:39'),
-(23, 12, '1', 'default', 'pending', 100000.00, 0.00, 0.00, NULL, NULL, 0.00, 100000.00, 0, NULL, 1, 'b5ecbd3489eeb29aff9fc5edf040ab6b', 22, '2021-12-20 00:44:10', '2021-12-20 00:45:18'),
-(24, 12, NULL, 'default', 'pending', 100000.00, 0.00, 0.00, NULL, NULL, 0.00, 100000.00, 0, NULL, 0, '686778243cf839755af2d0ff405df098', NULL, '2021-12-20 01:01:31', '2021-12-20 01:01:31');
-
 -- --------------------------------------------------------
 
 --
@@ -891,17 +943,6 @@ CREATE TABLE `ec_order_addresses` (
   `zip_code` varchar(20) COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
---
--- Dumping data for table `ec_order_addresses`
---
-
-INSERT INTO `ec_order_addresses` (`id`, `name`, `phone`, `email`, `country`, `state`, `city`, `address`, `order_id`, `zip_code`) VALUES
-(21, 'Muhammad Raffi Athallah', '087881051798', 'raffiathallahmiraza@gmail.com', 'ID', 'DKI Jakarta', 'Jakarta Selatan', 'Jl. dkdkdw', 21, NULL),
-(22, 'Muhammad Raffi Athallah', '087881051798', 'raffiathallahmiraza@gmail.com', 'ID', 'DKI Jakarta', 'Jakarta Selatan', 'Jl. dkdkdw', 22, NULL),
-(23, 'Nehemiah Simangunsong', '1212121', 'ezraelvio@yahoo.co.id', 'ID', 'DKI Jakarta', 'Jakarta Selatan', 'sasa', 23, NULL),
-(24, 'Nehemiah Simangunsong', '1212121', 'ezraelvio@yahoo.co.id', 'ID', 'DKI Jakarta', 'Jakarta Selatan', 'sasa', 23, NULL),
-(25, 'Nehemiah Simangunsong', '1212121', 'ezraelvio@yahoo.co.id', 'ID', 'DKI Jakarta', 'Jakarta Selatan', 'sasa', 24, NULL);
-
 -- --------------------------------------------------------
 
 --
@@ -918,16 +959,6 @@ CREATE TABLE `ec_order_histories` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `ec_order_histories`
---
-
-INSERT INTO `ec_order_histories` (`id`, `action`, `description`, `user_id`, `order_id`, `extras`, `created_at`, `updated_at`) VALUES
-(93, 'create_order_from_payment_page', 'Order is created from checkout page', NULL, 21, NULL, '2021-12-07 11:58:08', '2021-12-07 11:58:08'),
-(94, 'create_order', 'New order #10000021 from Raffi', NULL, 21, NULL, '2021-12-07 11:58:09', '2021-12-07 11:58:09'),
-(95, 'create_order_from_payment_page', 'Order is created from checkout page', NULL, 23, NULL, '2021-12-20 00:45:18', '2021-12-20 00:45:18'),
-(96, 'create_order', 'New order #10000023 from Nehemiah Simangunsong', NULL, 23, NULL, '2021-12-20 00:45:18', '2021-12-20 00:45:18');
 
 -- --------------------------------------------------------
 
@@ -949,16 +980,6 @@ CREATE TABLE `ec_order_product` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `ec_order_product`
---
-
-INSERT INTO `ec_order_product` (`id`, `order_id`, `qty`, `price`, `tax_amount`, `options`, `product_id`, `product_name`, `weight`, `restock_quantity`, `created_at`, `updated_at`) VALUES
-(58, 21, 1, 100000.00, 0.00, '[]', 86, 'Testing', 0.10, 0, '2021-12-07 11:58:08', '2021-12-07 11:58:08'),
-(59, 22, 1, 100000.00, 0.00, '[]', 86, 'Testing', 0.10, 0, '2021-12-07 14:39:39', '2021-12-07 14:39:39'),
-(61, 23, 1, 100000.00, 0.00, '[]', 86, 'Testing', 0.10, 0, '2021-12-20 00:45:18', '2021-12-20 00:45:18'),
-(62, 24, 1, 100000.00, 0.00, '[]', 86, 'Testing', 0.10, 0, '2021-12-20 01:01:31', '2021-12-20 01:01:31');
 
 -- --------------------------------------------------------
 
@@ -1011,7 +1032,32 @@ CREATE TABLE `ec_products` (
 --
 
 INSERT INTO `ec_products` (`id`, `name`, `description`, `content`, `status`, `images`, `sku`, `order`, `quantity`, `allow_checkout_when_out_of_stock`, `with_storehouse_management`, `is_featured`, `options`, `category_id`, `brand_id`, `is_variation`, `is_searchable`, `is_show_on_list`, `sale_type`, `price`, `sale_price`, `start_date`, `end_date`, `length`, `wide`, `height`, `weight`, `barcode`, `length_unit`, `wide_unit`, `height_unit`, `weight_unit`, `created_at`, `updated_at`, `tax_id`, `views`, `stock_status`) VALUES
-(86, 'Testing', '<p>cccccccccccccc</p><p>&nbsp;</p><p>testing</p>', '<p>ffffffff</p>', 'published', '[\"image-1.jpg\"]', NULL, 0, 0, 0, 0, 1, NULL, NULL, 4, 0, 0, 0, 0, 100000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-07 11:54:14', '2021-12-20 00:47:12', NULL, 7, 'in_stock');
+(87, 'Seelow Heights', '<p>Artist: Kyokaz<br><a href=\"https://www.pixiv.net/en/users/19451821\">Pixiv</a></p>', '<p>Depiksi pertempuran Seelow Heights oleh artis kami Bang Kyokaz</p>', 'published', '[\"mockup\\/posters\\/seelow-a.png\",\"mockup\\/posters\\/seelow-b.png\"]', NULL, 0, 0, 0, 0, 1, NULL, NULL, 0, 0, 0, 0, 0, 30000, NULL, NULL, NULL, 0.00, 42.00, 29.70, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 04:15:12', '2021-12-21 04:20:37', NULL, 1, 'out_of_stock'),
+(88, 'Leningrad', '<p>Artist: Kyokaz<br><a href=\"https://www.pixiv.net/en/users/19451821\">Pixiv</a></p>', '<p>Depiksi pertempuran Leningrad oleh artis kami Bang Kyokaz</p>', 'published', '[\"mockup\\/posters\\/leningrad-a.png\",\"mockup\\/posters\\/leningrad-b.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 30000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 04:29:24', '2021-12-21 04:37:38', NULL, 1, 'out_of_stock'),
+(89, 'Snowstorm', '<p>Artist: Cyka<br><a href=\"https://www.pixiv.net/en/users/19451821\">Pixiv</a></p>', '<p>Karakter GFL AK-12 DKK oleh artis kami Cyka</p>', 'published', '[\"mockup\\/posters\\/snowstorm-a.png\",\"mockup\\/posters\\/snowstorm-b.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 30000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 04:36:28', '2021-12-21 04:37:57', NULL, 1, 'out_of_stock'),
+(90, 'Jump', '<p>Artist: BlackboltLW<br><a href=\"https://www.pixiv.net/en/users/1841498\">Pixiv</a></p>', '<p>Karakter original dari artis kami BlackboltLW</p>', 'published', '[\"mockup\\/posters\\/jump-a.png\",\"mockup\\/posters\\/jump-b.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 30000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 04:53:58', '2021-12-21 04:55:31', NULL, 0, 'out_of_stock'),
+(91, 'Shoot', '<p>Artist: BlackboltLW<br><a href=\"https://www.pixiv.net/en/users/1841498\">Pixiv</a></p>', '<p>Karakter original dari artis kami BlackboltLW</p>', 'published', '[\"mockup\\/posters\\/shoot-a.png\",\"mockup\\/posters\\/shoot-b.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 30000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 04:59:00', '2021-12-21 04:59:51', NULL, 0, 'out_of_stock'),
+(92, 'Amiyaaaaa', '<p>Artist: Yoppai</p>', '<p>Karakter Arknights dari artis kami Yoppai</p>', 'published', '[\"mockup\\/posters\\/amiyaaaaa-a.png\",\"mockup\\/posters\\/amiyaaaaa-b.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 30000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 05:09:48', '2021-12-21 05:09:48', NULL, 0, 'out_of_stock'),
+(93, 'Kaos', '<p>Artist: Yoppai</p>', '<p>Mahluk lucu dalam armor WH 40K dari artis kami Yoppai</p>', 'published', '[\"mockup\\/posters\\/kaos-b.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 30000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 05:19:50', '2021-12-21 05:19:50', NULL, 0, 'out_of_stock'),
+(94, 'Nanban', '<p>Artist: Yoppai</p>', '<p>Samurai oleh artist kami Yoppai</p>', 'published', '[\"mockup\\/posters\\/nanban-a.png\",\"mockup\\/posters\\/nanban-b.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 30000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 05:22:13', '2021-12-21 05:22:13', NULL, 0, 'out_of_stock'),
+(95, 'Stalingrad', '<p>Artist: Yoppai</p>', '<p>Depiksi pertempuran Stalingrad oleh artist kami Yoppai</p>', 'published', '[\"mockup\\/posters\\/stalingrad-a.png\",\"mockup\\/posters\\/stalingrad-b.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 30000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 05:24:29', '2021-12-21 05:33:10', NULL, 0, 'out_of_stock'),
+(96, 'Asumsi Gas Ideal', NULL, '<p>Asumsi gas ideal</p>', 'published', '[\"mockup\\/postcards\\/asumsigasidela.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 10000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 05:55:30', '2021-12-21 05:56:11', NULL, 1, 'in_stock'),
+(97, 'P-38', NULL, '<p>P-38</p>', 'published', '[\"mockup\\/postcards\\/p-38.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 10000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 05:58:19', '2021-12-21 05:59:12', NULL, 0, 'in_stock'),
+(98, 'A6M2', NULL, '<p>A6M2</p>', 'published', '[\"mockup\\/postcards\\/a6m2.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 10000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 05:58:51', '2021-12-21 06:00:08', NULL, 0, 'in_stock'),
+(99, 'Dislokasi', NULL, '<p>Dislokasi</p>', 'published', '[\"mockup\\/postcards\\/dislokasi-2.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 10000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 05:59:48', '2021-12-21 05:59:48', NULL, 0, 'in_stock'),
+(100, 'UU-iTE', NULL, '<p>UU-ITE</p>', 'published', '[\"mockup\\/postcards\\/uu-ite.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 10000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 06:01:14', '2021-12-21 06:01:14', NULL, 0, 'in_stock'),
+(101, 'NMAX Community', NULL, '<p>NMAX Community</p>', 'published', '[\"mockup\\/postcards\\/nmax.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 10000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 06:06:38', '2021-12-21 06:06:38', NULL, 0, 'in_stock'),
+(102, 'Jump And Shoot', '<p>Artist: BlackboltLW</p><p><a href=\"https://www.pixiv.net/en/users/1841498\">Pixiv</a></p>', '<p>Postcard Jump And Shoot oleh artist kami BlackboltLW</p>', 'published', '[\"mockup\\/postcards\\/jumpnshoot.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 10000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 06:08:03', '2021-12-21 06:08:03', NULL, 0, 'in_stock'),
+(103, 'Sistem Tidak Stabil', NULL, '<p>Sistem Tidak Stabil</p>', 'published', '[\"mockup\\/postcards\\/tidakstabil.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 10000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 06:09:03', '2021-12-21 06:09:03', NULL, 0, 'in_stock'),
+(104, 'Waifu Victis', NULL, '<p>Buku kolaborasi antara Cozy Production dan Rimawarna yang berisikan <i>moe</i>-fikasi dari tokoh-tokoh penjajah terkenal dunia</p>', 'published', '[\"mockup\\/books\\/waifu-victis\\/wv-1.png\",\"mockup\\/books\\/waifu-victis\\/wv-2.png\",\"mockup\\/books\\/waifu-victis\\/wv-4.png\"]', NULL, 0, 0, 0, 0, 1, NULL, NULL, 0, 0, 0, 0, 0, 50000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 07:28:52', '2021-12-21 12:16:53', NULL, 3, 'in_stock'),
+(105, 'Tempe Penyet', '<p>ukuran S - XXL<br>bahan katun</p>', '<p>Tempe penyet</p>', 'published', '[\"mockup\\/shirts\\/tempepenyet.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 100000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 08:14:11', '2021-12-21 08:17:03', NULL, 0, 'out_of_stock'),
+(106, 'Ora Udud Paru-paru Ora Smile', '<p>ukuran S - XXL<br>bahan katun</p>', '<p>Ora Udud Paru-paru Ora Smileeeeeee</p>', 'published', '[\"mockup\\/shirts\\/oraudud.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 100000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 08:15:01', '2021-12-21 08:16:52', NULL, 0, 'out_of_stock'),
+(107, 'I Don\'t Speak Anime', '<p>ukuran S - XXL<br>bahan katun</p>', '<p>kaos I Don\'t Speak Anime</p>', 'published', '[\"mockup\\/shirts\\/idontspeak.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 100000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 08:16:41', '2021-12-21 08:16:41', NULL, 0, 'out_of_stock'),
+(108, 'I hate Kids With Anime Profile Pic', '<p>ukuran S - XXL<br>bahan katun</p>', '<p>I hate Kids With ANime Profile Pic</p>', 'published', '[\"mockup\\/shirts\\/ihatekids.png\"]', NULL, 0, 0, 0, 0, 1, NULL, NULL, 0, 0, 0, 0, 0, 100000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 08:18:19', '2021-12-21 08:18:19', NULL, 0, 'out_of_stock'),
+(109, 'Sticker Pack Cursed', '<p>Kumpulan stiker dengan tema cursed</p>', '<p>Kumpulan stiker dengan tema cursed pilihan dari Cozy Production</p>', 'published', '[\"mockup\\/stickers\\/stikercursed.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 40000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 08:35:53', '2021-12-21 08:35:53', NULL, 0, 'in_stock'),
+(110, 'Sticker Pack WA', '<p>Kumpulan stiker dengan tema WA</p>', '<p>Kumpulan stiker dengan tema WA pilihan dari Cozy Production</p>', 'published', '[\"mockup\\/stickers\\/stikerwa.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 40000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 08:36:48', '2021-12-21 08:36:48', NULL, 0, 'in_stock'),
+(111, 'Sticker Pack Vtuber', '<p>Kumpulan stiker dengan tema Vtuber</p>', '<p>Kumpulan stiker dengan tema Vtuber pilihan Cozy Production</p>', 'published', '[\"mockup\\/stickers\\/stikervtuber.png\"]', NULL, 0, 0, 0, 0, 1, NULL, NULL, 0, 0, 0, 0, 0, 40000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 08:37:55', '2021-12-21 12:30:15', NULL, 1, 'in_stock'),
+(112, 'Sticker Pack Reaction', '<p>Kumpulan stiker dengan tema Reaction images</p>', '<p>Kumpulan stiker dengan tema Reaction images pilihan Cozy Production</p>', 'published', '[\"mockup\\/stickers\\/stikerreaction.png\"]', NULL, 0, 0, 0, 0, 0, NULL, NULL, 0, 0, 0, 0, 0, 40000, NULL, NULL, NULL, 0.00, 0.00, 0.00, 0.00, NULL, NULL, NULL, NULL, NULL, '2021-12-21 08:38:58', '2021-12-21 08:38:58', NULL, 0, 'in_stock');
 
 -- --------------------------------------------------------
 
@@ -1149,7 +1195,9 @@ INSERT INTO `ec_product_categories` (`id`, `name`, `parent_id`, `description`, `
 (24, 'Accessories', 20, NULL, 'published', 10, NULL, 0, '2021-08-24 07:58:11', '2021-08-24 07:58:11'),
 (31, 'Books', 0, NULL, 'published', 1, 'image.jpg', 1, '2021-12-06 14:03:34', '2021-12-06 14:26:59'),
 (32, 'T-shirts', 0, NULL, 'published', 2, 'image-1.jpg', 0, '2021-12-06 14:24:06', '2021-12-06 14:25:21'),
-(33, 'Original', 12, NULL, 'published', 3, NULL, 0, '2021-12-06 14:34:04', '2021-12-06 14:34:04');
+(33, 'Original', 12, NULL, 'published', 3, NULL, 0, '2021-12-06 14:34:04', '2021-12-06 14:34:04'),
+(34, 'Girls Frontline', 12, NULL, 'published', 3, NULL, 0, '2021-12-21 04:54:47', '2021-12-21 04:54:47'),
+(35, 'Arknights', 12, NULL, 'published', 3, NULL, 0, '2021-12-21 05:11:04', '2021-12-21 05:11:04');
 
 -- --------------------------------------------------------
 
@@ -1195,7 +1243,41 @@ CREATE TABLE `ec_product_category_product` (
 --
 
 INSERT INTO `ec_product_category_product` (`id`, `category_id`, `product_id`) VALUES
-(91, 32, 86);
+(92, 12, 87),
+(93, 33, 87),
+(94, 12, 89),
+(96, 12, 88),
+(97, 33, 88),
+(98, 12, 90),
+(99, 33, 90),
+(100, 34, 89),
+(101, 12, 91),
+(102, 33, 91),
+(103, 12, 92),
+(104, 35, 92),
+(105, 12, 93),
+(106, 33, 93),
+(107, 12, 94),
+(108, 33, 94),
+(109, 12, 95),
+(110, 33, 95),
+(111, 17, 96),
+(112, 17, 97),
+(113, 17, 98),
+(114, 17, 99),
+(115, 17, 100),
+(116, 17, 101),
+(117, 17, 102),
+(118, 17, 103),
+(119, 31, 104),
+(120, 32, 105),
+(121, 32, 106),
+(122, 32, 107),
+(123, 32, 108),
+(124, 18, 109),
+(125, 18, 110),
+(126, 18, 111),
+(127, 18, 112);
 
 -- --------------------------------------------------------
 
@@ -1263,7 +1345,7 @@ CREATE TABLE `ec_product_collection_products` (
 --
 
 INSERT INTO `ec_product_collection_products` (`id`, `product_collection_id`, `product_id`) VALUES
-(25, 1, 86);
+(26, 1, 96);
 
 -- --------------------------------------------------------
 
@@ -1342,7 +1424,8 @@ INSERT INTO `ec_product_label_products` (`product_label_id`, `product_id`) VALUE
 (1, 21),
 (2, 7),
 (2, 14),
-(2, 86);
+(2, 86),
+(2, 96);
 
 -- --------------------------------------------------------
 
@@ -1355,6 +1438,13 @@ CREATE TABLE `ec_product_related_relations` (
   `from_product_id` int(10) UNSIGNED NOT NULL,
   `to_product_id` int(10) UNSIGNED NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `ec_product_related_relations`
+--
+
+INSERT INTO `ec_product_related_relations` (`id`, `from_product_id`, `to_product_id`) VALUES
+(2, 88, 87);
 
 -- --------------------------------------------------------
 
@@ -1964,7 +2054,58 @@ INSERT INTO `media_files` (`id`, `user_id`, `name`, `folder_id`, `mime_type`, `s
 (205, 1, 'New Project (1)', 0, 'image/jpeg', 38759, 'new-project-1.jpg', '[]', '2021-12-06 16:35:27', '2021-12-06 16:35:27', NULL),
 (206, 1, 'New Project (2)', 0, 'image/jpeg', 700768, 'new-project-2.jpg', '[]', '2021-12-06 16:50:00', '2021-12-06 16:50:00', NULL),
 (207, 1, 'New Project (3)', 0, 'image/jpeg', 132982, 'new-project-3.jpg', '[]', '2021-12-06 17:10:37', '2021-12-06 17:10:37', NULL),
-(208, 1, 'New Project (4)', 0, 'image/jpeg', 55090, 'new-project-4.jpg', '[]', '2021-12-06 17:19:54', '2021-12-06 17:19:54', NULL);
+(208, 1, 'New Project (4)', 0, 'image/jpeg', 55090, 'new-project-4.jpg', '[]', '2021-12-06 17:19:54', '2021-12-06 17:19:54', NULL),
+(209, 1, 'Seelow-A', 15, 'image/png', 144651, 'mockup/posters/seelow-a.png', '[]', '2021-12-21 04:08:32', '2021-12-21 04:08:32', NULL),
+(210, 1, 'Seelow-B', 15, 'image/png', 159161, 'mockup/posters/seelow-b.png', '[]', '2021-12-21 04:08:38', '2021-12-21 04:08:38', NULL),
+(211, 1, 'Leningrad-B', 15, 'image/png', 195936, 'mockup/posters/leningrad-b.png', '[]', '2021-12-21 04:26:29', '2021-12-21 04:26:29', NULL),
+(212, 1, 'Leningrad-A', 15, 'image/png', 184254, 'mockup/posters/leningrad-a.png', '[]', '2021-12-21 04:26:32', '2021-12-21 04:26:32', NULL),
+(213, 1, 'Snowstorm-B', 15, 'image/png', 174061, 'mockup/posters/snowstorm-b.png', '[]', '2021-12-21 04:35:59', '2021-12-21 04:35:59', NULL),
+(214, 1, 'Snowstorm-A', 15, 'image/png', 195741, 'mockup/posters/snowstorm-a.png', '[]', '2021-12-21 04:36:02', '2021-12-21 04:36:02', NULL),
+(215, 1, 'Jump-B', 15, 'image/png', 100513, 'mockup/posters/jump-b.png', '[]', '2021-12-21 04:52:02', '2021-12-21 04:52:02', NULL),
+(216, 1, 'Jump-A', 15, 'image/png', 90941, 'mockup/posters/jump-a.png', '[]', '2021-12-21 04:52:04', '2021-12-21 04:52:04', NULL),
+(217, 1, 'Shoot-B', 15, 'image/png', 79777, 'mockup/posters/shoot-b.png', '[]', '2021-12-21 04:57:49', '2021-12-21 04:57:49', NULL),
+(218, 1, 'Shoot-A', 15, 'image/png', 80689, 'mockup/posters/shoot-a.png', '[]', '2021-12-21 04:57:51', '2021-12-21 04:57:51', NULL),
+(219, 1, 'Amiyaaaaa-B', 15, 'image/png', 230447, 'mockup/posters/amiyaaaaa-b.png', '[]', '2021-12-21 05:09:28', '2021-12-21 05:09:28', NULL),
+(220, 1, 'Amiyaaaaa-A', 15, 'image/png', 205474, 'mockup/posters/amiyaaaaa-a.png', '[]', '2021-12-21 05:09:31', '2021-12-21 05:09:31', NULL),
+(221, 1, 'Kaos-B', 15, 'image/png', 253771, 'mockup/posters/kaos-b.png', '[]', '2021-12-21 05:15:26', '2021-12-21 05:15:26', NULL),
+(222, 1, 'FGymIseagAQwatW', 15, 'image/jpeg', 2718619, 'mockup/posters/fgymiseagaqwatw.jpg', '[]', '2021-12-21 05:17:18', '2021-12-21 05:17:45', '2021-12-21 05:17:45'),
+(223, 1, 'Nanban-B', 15, 'image/png', 98202, 'mockup/posters/nanban-b.png', '[]', '2021-12-21 05:21:20', '2021-12-21 05:21:20', NULL),
+(224, 1, 'Nanban-A', 15, 'image/png', 122179, 'mockup/posters/nanban-a.png', '[]', '2021-12-21 05:21:22', '2021-12-21 05:21:22', NULL),
+(225, 1, 'Stalingrad-B', 15, 'image/png', 179220, 'mockup/posters/stalingrad-b.png', '[]', '2021-12-21 05:32:44', '2021-12-21 05:32:44', NULL),
+(226, 1, 'Stalingrad-A', 15, 'image/png', 205395, 'mockup/posters/stalingrad-a.png', '[]', '2021-12-21 05:32:48', '2021-12-21 05:32:48', NULL),
+(227, 1, 'TidakStabil', 15, 'image/png', 22830, 'mockup/posters/tidakstabil.png', '[]', '2021-12-21 05:50:23', '2021-12-21 05:51:18', '2021-12-21 05:51:18'),
+(228, 1, 'JumpnShoot', 15, 'image/png', 107861, 'mockup/posters/jumpnshoot.png', '[]', '2021-12-21 05:50:34', '2021-12-21 05:51:18', '2021-12-21 05:51:18'),
+(229, 1, 'NMAX', 15, 'image/png', 154229, 'mockup/posters/nmax.png', '[]', '2021-12-21 05:50:44', '2021-12-21 05:51:18', '2021-12-21 05:51:18'),
+(230, 1, 'UU-ITE', 15, 'image/png', 47734, 'mockup/posters/uu-ite.png', '[]', '2021-12-21 05:50:46', '2021-12-21 05:51:18', '2021-12-21 05:51:18'),
+(231, 1, 'Dislokasi (2)', 15, 'image/png', 23194, 'mockup/posters/dislokasi-2.png', '[]', '2021-12-21 05:50:48', '2021-12-21 05:51:18', '2021-12-21 05:51:18'),
+(232, 1, 'A6M2', 15, 'image/png', 277589, 'mockup/posters/a6m2.png', '[]', '2021-12-21 05:50:54', '2021-12-21 05:51:17', '2021-12-21 05:51:17'),
+(233, 1, 'P-38', 15, 'image/png', 271326, 'mockup/posters/p-38.png', '[]', '2021-12-21 05:50:59', '2021-12-21 05:51:17', '2021-12-21 05:51:17'),
+(234, 1, 'asumsigasidela', 15, 'image/png', 48362, 'mockup/posters/asumsigasidela.png', '[]', '2021-12-21 05:51:02', '2021-12-21 05:51:13', '2021-12-21 05:51:13'),
+(235, 1, 'TidakStabil', 16, 'image/png', 22830, 'mockup/postcards/tidakstabil.png', '[]', '2021-12-21 05:51:51', '2021-12-21 05:51:51', NULL),
+(236, 1, 'JumpnShoot', 16, 'image/png', 107861, 'mockup/postcards/jumpnshoot.png', '[]', '2021-12-21 05:51:55', '2021-12-21 05:51:55', NULL),
+(237, 1, 'NMAX', 16, 'image/png', 154229, 'mockup/postcards/nmax.png', '[]', '2021-12-21 05:52:01', '2021-12-21 05:52:01', NULL),
+(238, 1, 'UU-ITE', 16, 'image/png', 47734, 'mockup/postcards/uu-ite.png', '[]', '2021-12-21 05:52:03', '2021-12-21 05:52:03', NULL),
+(239, 1, 'Dislokasi (2)', 16, 'image/png', 23194, 'mockup/postcards/dislokasi-2.png', '[]', '2021-12-21 05:52:07', '2021-12-21 05:52:07', NULL),
+(240, 1, 'A6M2', 16, 'image/png', 277589, 'mockup/postcards/a6m2.png', '[]', '2021-12-21 05:52:10', '2021-12-21 05:52:10', NULL),
+(241, 1, 'P-38', 16, 'image/png', 271326, 'mockup/postcards/p-38.png', '[]', '2021-12-21 05:52:14', '2021-12-21 05:52:14', NULL),
+(242, 1, 'asumsigasidela', 16, 'image/png', 48362, 'mockup/postcards/asumsigasidela.png', '[]', '2021-12-21 05:52:17', '2021-12-21 05:52:17', NULL),
+(243, 1, 'WV-4', 18, 'image/png', 266085, 'mockup/books/waifu-victis/wv-4.png', '[]', '2021-12-21 07:25:39', '2021-12-21 07:25:39', NULL),
+(244, 1, 'WV-2', 18, 'image/png', 275948, 'mockup/books/waifu-victis/wv-2.png', '[]', '2021-12-21 07:25:45', '2021-12-21 07:25:45', NULL),
+(245, 1, 'WV-1', 18, 'image/png', 283774, 'mockup/books/waifu-victis/wv-1.png', '[]', '2021-12-21 07:25:46', '2021-12-21 07:25:46', NULL),
+(246, 1, 'image-1 (4)', 19, 'image/png', 198481, 'mockup/shirts/image-1-4.png', '[]', '2021-12-21 07:58:06', '2021-12-21 07:58:34', '2021-12-21 07:58:34'),
+(247, 1, 'image-1 (3)', 19, 'image/png', 181857, 'mockup/shirts/image-1-3.png', '[]', '2021-12-21 07:58:09', '2021-12-21 07:58:34', '2021-12-21 07:58:34'),
+(248, 1, 'image-1 (1)', 19, 'image/png', 163641, 'mockup/shirts/image-1-1.png', '[]', '2021-12-21 07:58:16', '2021-12-21 07:58:34', '2021-12-21 07:58:34'),
+(249, 1, 'image-1', 19, 'image/png', 171712, 'mockup/shirts/image-1.png', '[]', '2021-12-21 07:58:18', '2021-12-21 07:58:34', '2021-12-21 07:58:34'),
+(250, 1, 'tempepenyet', 19, 'image/png', 198481, 'mockup/shirts/tempepenyet.png', '[]', '2021-12-21 07:59:42', '2021-12-21 07:59:42', NULL),
+(251, 1, 'oraudud', 19, 'image/png', 181857, 'mockup/shirts/oraudud.png', '[]', '2021-12-21 07:59:44', '2021-12-21 07:59:44', NULL),
+(252, 1, 'ihatekids', 19, 'image/png', 163641, 'mockup/shirts/ihatekids.png', '[]', '2021-12-21 07:59:47', '2021-12-21 07:59:47', NULL),
+(253, 1, 'Idontspeak', 19, 'image/png', 171712, 'mockup/shirts/idontspeak.png', '[]', '2021-12-21 07:59:51', '2021-12-21 07:59:51', NULL),
+(254, 1, 'stikervtuber', 20, 'image/png', 254590, 'mockup/stickers/stikervtuber.png', '[]', '2021-12-21 08:29:23', '2021-12-21 08:29:23', NULL),
+(255, 1, 'stikerreaction', 20, 'image/png', 256244, 'mockup/stickers/stikerreaction.png', '[]', '2021-12-21 08:29:29', '2021-12-21 08:29:29', NULL),
+(256, 1, 'stikerWA', 20, 'image/png', 327086, 'mockup/stickers/stikerwa.png', '[]', '2021-12-21 08:29:45', '2021-12-21 08:29:45', NULL),
+(257, 1, 'stikercursed', 20, 'image/png', 270222, 'mockup/stickers/stikercursed.png', '[]', '2021-12-21 08:29:52', '2021-12-21 08:29:52', NULL),
+(258, 1, 'carousel-A', 10, 'image/jpeg', 334482, 'sliders/carousel-a.jpg', '[]', '2021-12-21 10:22:26', '2021-12-21 10:22:26', NULL),
+(259, 1, 'carousel-B', 10, 'image/jpeg', 424741, 'sliders/carousel-b.jpg', '[]', '2021-12-21 10:27:53', '2021-12-21 10:27:53', NULL);
 
 -- --------------------------------------------------------
 
@@ -1996,7 +2137,14 @@ INSERT INTO `media_folders` (`id`, `user_id`, `name`, `slug`, `parent_id`, `crea
 (10, 0, 'sliders', 'sliders', 0, '2021-08-24 07:59:36', '2021-08-24 07:59:36', NULL),
 (11, 0, 'news', 'news', 0, '2021-08-24 08:00:12', '2021-08-24 08:00:12', NULL),
 (12, 0, 'promotion', 'promotion', 0, '2021-08-24 08:00:27', '2021-08-24 08:00:27', NULL),
-(13, 0, 'general', 'general', 0, '2021-08-24 08:00:33', '2021-08-24 08:00:33', NULL);
+(13, 0, 'general', 'general', 0, '2021-08-24 08:00:33', '2021-08-24 08:00:33', NULL),
+(14, 1, 'Mockup', 'mockup', 0, '2021-12-21 03:53:30', '2021-12-21 03:53:30', NULL),
+(15, 1, 'Posters', 'posters', 14, '2021-12-21 03:53:49', '2021-12-21 03:53:49', NULL),
+(16, 1, 'Postcards', 'postcards', 14, '2021-12-21 05:51:37', '2021-12-21 05:51:37', NULL),
+(17, 1, 'Books', 'books', 14, '2021-12-21 07:25:09', '2021-12-21 07:25:09', NULL),
+(18, 1, 'Waifu Victis', 'waifu-victis', 17, '2021-12-21 07:25:20', '2021-12-21 07:25:20', NULL),
+(19, 1, 'Shirts', 'shirts', 14, '2021-12-21 07:31:08', '2021-12-21 07:31:08', NULL),
+(20, 1, 'Stickers', 'stickers', 14, '2021-12-21 08:29:09', '2021-12-21 08:29:09', NULL);
 
 -- --------------------------------------------------------
 
@@ -2091,7 +2239,7 @@ CREATE TABLE `menu_nodes` (
 --
 
 INSERT INTO `menu_nodes` (`id`, `menu_id`, `parent_id`, `reference_id`, `reference_type`, `url`, `icon_font`, `position`, `title`, `css_class`, `target`, `has_child`, `created_at`, `updated_at`) VALUES
-(11, 1, 0, 0, NULL, '#', '', 1, 'Toko', '', '_self', 0, '2021-08-24 08:00:33', '2021-12-06 16:39:05'),
+(11, 1, 0, 0, NULL, 'https://cozypro.xyz/produk', '', 1, 'Toko', '', '_self', 0, '2021-08-24 08:00:33', '2021-12-21 10:06:49'),
 (15, 1, 0, 5, 'Botble\\Page\\Models\\Page', '/blog', '', 2, 'Jurnal', '', '_self', 0, '2021-08-24 08:00:33', '2021-12-06 17:05:51'),
 (35, 4, 0, NULL, NULL, '/', NULL, 0, 'Trang chủ', NULL, '_self', 1, '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
 (36, 4, 35, 1, 'Botble\\Page\\Models\\Page', '/homepage', NULL, 0, 'Trang chủ 1', NULL, '_self', 0, '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
@@ -2118,10 +2266,10 @@ INSERT INTO `menu_nodes` (`id`, `menu_id`, `parent_id`, `reference_id`, `referen
 (64, 6, 0, 10, 'Botble\\Page\\Models\\Page', '/returns-exchanges', NULL, 0, 'Chính sách đổi trả', NULL, '_self', 0, '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
 (65, 6, 0, 11, 'Botble\\Page\\Models\\Page', '/shipping-delivery', NULL, 0, 'Chính sách vận chuyển', NULL, '_self', 0, '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
 (66, 6, 0, 12, 'Botble\\Page\\Models\\Page', '/privacy-policy', NULL, 0, 'Chính sách bảo mật', NULL, '_self', 0, '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
-(67, 3, 0, 0, NULL, '', '', 0, 'Hubungi kami', '', '_self', 0, '2021-12-06 13:13:14', '2021-12-06 17:13:50'),
+(67, 3, 0, 0, NULL, 'https://www.facebook.com/BerkaryaDenganSantai', '', 0, 'Hubungi kami di Facebook', '', '_self', 0, '2021-12-06 13:13:14', '2021-12-21 10:11:05'),
 (69, 1, 0, 0, NULL, 'https://cozypro.xyz/', '', 0, 'Beranda', '', '_self', 0, '2021-12-06 16:39:05', '2021-12-06 17:06:17'),
 (70, 1, 0, 0, NULL, 'https://cozypro.xyz/login', '', 3, 'Login / Register', '', '_self', 0, '2021-12-06 16:39:05', '2021-12-06 17:05:51'),
-(71, 3, 0, 0, NULL, '', '', 1, 'Tentang Cozypro', '', '_self', 0, '2021-12-06 16:41:43', '2021-12-06 17:13:50');
+(71, 3, 0, 0, NULL, '/', '', 1, 'Tentang Cozypro', '', '_self', 0, '2021-12-06 16:41:43', '2021-12-21 10:07:53');
 
 -- --------------------------------------------------------
 
@@ -2174,12 +2322,12 @@ INSERT INTO `meta_boxes` (`id`, `meta_key`, `meta_value`, `reference_id`, `refer
 (44, 'subtitle', '[\"Upcoming Offer\"]', 6, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
 (45, 'highlight_text', '[\"Manufacturer\"]', 6, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
 (46, 'simple_slider_style', '[\"style-3\"]', 3, 'Botble\\SimpleSlider\\Models\\SimpleSlider', '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
-(47, 'button_text', '[\"Beli Sekarang\"]', 7, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-06 16:50:06'),
-(48, 'subtitle', '[\"Kumpulan\"]', 7, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-06 16:50:06'),
-(49, 'highlight_text', '[\"Original, Idolmaster dan Meme\"]', 7, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-06 16:51:16'),
+(47, 'button_text', '[\"Cek Sekarang\"]', 7, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-21 10:23:00'),
+(48, 'subtitle', '[\"Baru!\"]', 7, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-21 10:23:00'),
+(49, 'highlight_text', '[\"WAIFU VICTIS\"]', 7, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-21 10:23:00'),
 (50, 'button_text', '[\"Cek Sekarang\"]', 8, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-06 17:11:28'),
-(51, 'subtitle', '[\"Arona\"]', 8, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-06 17:11:28'),
-(52, 'highlight_text', '[\"SUSUS AMOGUS\"]', 8, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-06 17:11:28'),
+(51, 'subtitle', '[\"kembali lagi!\"]', 8, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-21 10:28:06'),
+(52, 'highlight_text', '[\"Cozy Production\"]', 8, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-12-21 10:28:07'),
 (53, 'simple_slider_style', '[\"style-4\"]', 4, 'Botble\\SimpleSlider\\Models\\SimpleSlider', '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
 (54, 'button_text', '[\"Shop now\"]', 9, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
 (55, 'subtitle', '[\"Trade-In Offer\"]', 9, 'Botble\\SimpleSlider\\Models\\SimpleSliderItem', '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
@@ -2258,7 +2406,34 @@ INSERT INTO `meta_boxes` (`id`, `meta_key`, `meta_value`, `reference_id`, `refer
 (132, 'layout', '[\"blog-full-width\"]', 23, 'Botble\\Blog\\Models\\Post', '2021-12-06 16:21:17', '2021-12-06 16:21:17'),
 (133, 'time_to_read', '[null]', 24, 'Botble\\Blog\\Models\\Post', '2021-12-06 16:31:11', '2021-12-06 16:31:11'),
 (134, 'layout', '[\"blog-full-width\"]', 24, 'Botble\\Blog\\Models\\Post', '2021-12-06 16:31:11', '2021-12-06 16:31:11'),
-(135, 'layout', '[\"product-right-sidebar\"]', 86, 'Botble\\Ecommerce\\Models\\Product', '2021-12-07 11:54:14', '2021-12-07 11:54:14');
+(136, 'layout', '[\"product-right-sidebar\"]', 87, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 04:15:12', '2021-12-21 04:15:12'),
+(137, 'layout', '[\"product-right-sidebar\"]', 88, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 04:29:24', '2021-12-21 04:29:24'),
+(138, 'layout', '[\"product-right-sidebar\"]', 89, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 04:36:28', '2021-12-21 04:36:28'),
+(139, 'layout', '[\"product-right-sidebar\"]', 90, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 04:53:58', '2021-12-21 04:53:58'),
+(140, 'icon', '[null]', 34, 'Botble\\Ecommerce\\Models\\ProductCategory', '2021-12-21 04:54:47', '2021-12-21 04:54:47'),
+(141, 'layout', '[\"product-right-sidebar\"]', 91, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 04:59:00', '2021-12-21 04:59:00'),
+(142, 'layout', '[\"product-right-sidebar\"]', 92, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 05:09:48', '2021-12-21 05:09:48'),
+(143, 'icon', '[null]', 35, 'Botble\\Ecommerce\\Models\\ProductCategory', '2021-12-21 05:11:04', '2021-12-21 05:11:04'),
+(144, 'layout', '[\"product-right-sidebar\"]', 93, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 05:19:50', '2021-12-21 05:19:50'),
+(145, 'layout', '[\"product-right-sidebar\"]', 94, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 05:22:13', '2021-12-21 05:22:13'),
+(146, 'layout', '[\"product-right-sidebar\"]', 95, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 05:24:29', '2021-12-21 05:24:29'),
+(147, 'layout', '[\"product-right-sidebar\"]', 96, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 05:55:30', '2021-12-21 05:55:30'),
+(148, 'layout', '[\"product-right-sidebar\"]', 97, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 05:58:21', '2021-12-21 05:58:21'),
+(149, 'layout', '[\"product-right-sidebar\"]', 98, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 05:58:57', '2021-12-21 05:58:57'),
+(150, 'layout', '[\"product-right-sidebar\"]', 99, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 05:59:50', '2021-12-21 05:59:50'),
+(151, 'layout', '[\"product-right-sidebar\"]', 100, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 06:01:15', '2021-12-21 06:01:15'),
+(152, 'layout', '[\"product-right-sidebar\"]', 101, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 06:06:38', '2021-12-21 06:06:38'),
+(153, 'layout', '[\"product-right-sidebar\"]', 102, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 06:08:03', '2021-12-21 06:08:03'),
+(154, 'layout', '[\"product-right-sidebar\"]', 103, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 06:09:03', '2021-12-21 06:09:03'),
+(155, 'layout', '[\"product-right-sidebar\"]', 104, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 07:28:53', '2021-12-21 07:28:53'),
+(156, 'layout', '[\"product-right-sidebar\"]', 105, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 08:14:12', '2021-12-21 08:14:12'),
+(157, 'layout', '[\"product-right-sidebar\"]', 106, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 08:15:01', '2021-12-21 08:15:01'),
+(158, 'layout', '[\"product-right-sidebar\"]', 107, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 08:16:41', '2021-12-21 08:16:41'),
+(159, 'layout', '[\"product-right-sidebar\"]', 108, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 08:18:21', '2021-12-21 08:18:21'),
+(160, 'layout', '[\"product-right-sidebar\"]', 109, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 08:35:53', '2021-12-21 08:35:53'),
+(161, 'layout', '[\"product-right-sidebar\"]', 110, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 08:36:55', '2021-12-21 08:36:55'),
+(162, 'layout', '[\"product-right-sidebar\"]', 111, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 08:37:56', '2021-12-21 08:37:56'),
+(163, 'layout', '[\"product-right-sidebar\"]', 112, 'Botble\\Ecommerce\\Models\\Product', '2021-12-21 08:39:08', '2021-12-21 08:39:08');
 
 -- --------------------------------------------------------
 
@@ -2430,14 +2605,6 @@ CREATE TABLE `payments` (
   `customer_type` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `metadata` text COLLATE utf8mb4_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
-
---
--- Dumping data for table `payments`
---
-
-INSERT INTO `payments` (`id`, `currency`, `user_id`, `charge_id`, `payment_channel`, `description`, `amount`, `order_id`, `status`, `payment_type`, `customer_id`, `refunded_amount`, `refund_note`, `created_at`, `updated_at`, `customer_type`, `metadata`) VALUES
-(21, 'RP', 0, 'KYZGSCU6EE', 'bank_transfer', NULL, 100025.00, 21, 'pending', 'confirm', 11, NULL, NULL, '2021-12-07 11:58:08', '2021-12-07 11:58:08', 'Botble\\Ecommerce\\Models\\Customer', NULL),
-(22, 'RP', 0, '1AKHHLBZIA', 'bank_transfer', NULL, 100000.00, 23, 'pending', 'confirm', 12, NULL, NULL, '2021-12-20 00:45:18', '2021-12-20 00:45:18', 'Botble\\Ecommerce\\Models\\Customer', NULL);
 
 -- --------------------------------------------------------
 
@@ -2921,8 +3088,8 @@ INSERT INTO `simple_slider_items` (`id`, `simple_slider_id`, `title`, `image`, `
 (4, 2, 'Super Value Deals', 'sliders/2-1.png', '/products', 'Save more with coupons & up to 70% off', 1, '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
 (5, 2, 'Tech Trending', 'sliders/2-2.png', '/products', 'Save more with coupons & up to 20% off', 2, '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
 (6, 2, 'Big Deals From', 'sliders/2-3.png', '/products', 'Headphone, Gaming Laptop, PC and more...', 3, '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
-(7, 3, 'Poster', 'new-project-2.jpg', '#', NULL, 1, '2021-08-24 08:00:11', '2021-12-06 16:50:06'),
-(8, 3, 'Kinda lookin SUS', 'new-project-3.jpg', '#', NULL, 2, '2021-08-24 08:00:11', '2021-12-06 17:11:28'),
+(7, 3, 'TELAH TERBIT', 'sliders/carousel-a.jpg', 'https://cozypro.xyz/produk/waifu-victis', 'Buku baru karya Cozy Production dan Rimawarna.', 1, '2021-08-24 08:00:11', '2021-12-21 10:28:33'),
+(8, 3, 'Sticker Pack', 'sliders/carousel-b.jpg', 'https://cozypro.xyz/kat-produk/stickers', NULL, 2, '2021-08-24 08:00:11', '2021-12-21 10:28:06'),
 (9, 4, 'Super Value Deals', 'sliders/4-1.png', '/products', 'Save more with coupons & up to 70% off', 1, '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
 (10, 4, 'Tech Trending', 'sliders/4-2.png', '/products', 'Save more with coupons & up to 20% off', 2, '2021-08-24 08:00:11', '2021-08-24 08:00:11'),
 (11, 4, 'Big Deals From', 'sliders/4-3.png', '/products', 'Headphone, Gaming Laptop, PC and more...', 3, '2021-08-24 08:00:12', '2021-08-24 08:00:12'),
@@ -2959,7 +3126,7 @@ CREATE TABLE `slugs` (
 --
 
 INSERT INTO `slugs` (`id`, `key`, `reference_id`, `reference_type`, `prefix`, `created_at`, `updated_at`) VALUES
-(85, 'computers', 12, 'Botble\\Ecommerce\\Models\\ProductCategory', 'kat-produk', '2021-08-24 07:58:11', '2021-12-06 14:19:49'),
+(85, 'posters', 12, 'Botble\\Ecommerce\\Models\\ProductCategory', 'kat-produk', '2021-08-24 07:58:11', '2021-12-21 05:44:32'),
 (90, 'postcards', 17, 'Botble\\Ecommerce\\Models\\ProductCategory', 'kat-produk', '2021-08-24 07:58:11', '2021-12-06 14:36:44'),
 (91, 'stickers', 18, 'Botble\\Ecommerce\\Models\\ProductCategory', 'kat-produk', '2021-08-24 07:58:11', '2021-12-06 14:40:26'),
 (92, 'jewelry-watch', 19, 'Botble\\Ecommerce\\Models\\ProductCategory', 'kat-produk', '2021-08-24 07:58:11', '2021-12-06 14:19:49'),
@@ -3019,7 +3186,34 @@ INSERT INTO `slugs` (`id`, `key`, `reference_id`, `reference_type`, `prefix`, `c
 (202, 'ddddddddddd', 23, 'Botble\\Blog\\Models\\Post', 'blog', '2021-12-06 16:21:17', '2021-12-06 16:21:17'),
 (203, 'test-post-blog', 24, 'Botble\\Blog\\Models\\Post', 'blog', '2021-12-06 16:31:11', '2021-12-06 16:31:11'),
 (204, 'news', 9, 'Botble\\Blog\\Models\\Category', 'blog', '2021-12-07 00:31:25', '2021-12-07 00:31:25'),
-(205, 'testing', 86, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-07 11:54:14', '2021-12-07 11:54:14');
+(206, 'seelow-heights', 87, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 04:15:12', '2021-12-21 04:15:12'),
+(207, 'leningrad', 88, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 04:29:24', '2021-12-21 04:29:24'),
+(208, 'snowstorm', 89, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 04:36:28', '2021-12-21 04:36:28'),
+(209, 'jump', 90, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 04:53:58', '2021-12-21 04:53:58'),
+(210, 'girls-frontline', 34, 'Botble\\Ecommerce\\Models\\ProductCategory', 'kat-produk', '2021-12-21 04:54:47', '2021-12-21 04:54:47'),
+(211, 'shoot', 91, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 04:59:00', '2021-12-21 04:59:00'),
+(212, 'amiyaaaaa', 92, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 05:09:48', '2021-12-21 05:09:48'),
+(213, 'arknights', 35, 'Botble\\Ecommerce\\Models\\ProductCategory', 'kat-produk', '2021-12-21 05:11:04', '2021-12-21 05:11:04'),
+(214, 'kaos', 93, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 05:19:50', '2021-12-21 05:19:50'),
+(215, 'nanban', 94, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 05:22:13', '2021-12-21 05:22:13'),
+(216, 'stalingrad', 95, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 05:24:29', '2021-12-21 05:24:29'),
+(217, 'asumsi-gas-ideal', 96, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 05:55:30', '2021-12-21 05:55:30'),
+(218, 'p-38', 97, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 05:58:21', '2021-12-21 05:58:21'),
+(219, 'a6m2', 98, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 05:58:57', '2021-12-21 05:58:57'),
+(220, 'dislokasi', 99, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 05:59:50', '2021-12-21 05:59:50'),
+(221, 'uu-ite', 100, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 06:01:15', '2021-12-21 06:01:15'),
+(222, 'nmax-community', 101, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 06:06:38', '2021-12-21 06:06:38'),
+(223, 'jump-and-shoot', 102, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 06:08:03', '2021-12-21 06:08:03'),
+(224, 'sistem-tidka-stabil', 103, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 06:09:04', '2021-12-21 06:09:04'),
+(225, 'waifu-victis', 104, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 07:28:53', '2021-12-21 07:28:53'),
+(226, 'tempe-penyet', 105, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 08:14:12', '2021-12-21 08:14:12'),
+(227, 'ora-udud-paru-paru-ora-smile', 106, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 08:15:01', '2021-12-21 08:15:01'),
+(228, 'i-dont-speak-anime', 107, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 08:16:41', '2021-12-21 08:16:41'),
+(229, 'i-hate-kids-with-anime-profile-pic', 108, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 08:18:21', '2021-12-21 08:18:21'),
+(230, 'sticker-pack-cursed', 109, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 08:35:53', '2021-12-21 08:35:53'),
+(231, 'sticker-pack-wa', 110, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 08:36:55', '2021-12-21 08:36:55'),
+(232, 'sticker-pack-vtuber', 111, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 08:37:56', '2021-12-21 08:37:56'),
+(233, 'sticker-pack-reaction', 112, 'Botble\\Ecommerce\\Models\\Product', 'produk', '2021-12-21 08:39:08', '2021-12-21 08:39:08');
 
 -- --------------------------------------------------------
 
@@ -5555,9 +5749,7 @@ INSERT INTO `widgets` (`id`, `widget_id`, `sidebar_id`, `theme`, `position`, `da
 (5, 'BlogCategoriesWidget', 'primary_sidebar', 'wowy', 1, '{\"id\":\"BlogCategoriesWidget\",\"name\":\"Categories\"}', '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
 (6, 'RecentPostsWidget', 'primary_sidebar', 'wowy', 2, '{\"id\":\"RecentPostsWidget\",\"name\":\"Recent Posts\"}', '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
 (7, 'TagsWidget', 'primary_sidebar', 'wowy', 4, '{\"id\":\"TagsWidget\",\"name\":\"Popular Tags\"}', '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
-(8, 'ProductCategoriesWidget', 'product_sidebar', 'wowy', 1, '{\"id\":\"ProductCategoriesWidget\",\"name\":\"Categories\"}', '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
 (9, 'FeaturedProductsWidget', 'product_sidebar', 'wowy', 2, '{\"id\":\"FeaturedProductsWidget\",\"name\":\"Featured Products\"}', '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
-(10, 'FeaturedBrandsWidget', 'product_sidebar', 'wowy', 3, '{\"id\":\"FeaturedBrandsWidget\",\"name\":\"Manufacturers\"}', '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
 (11, 'SiteInfoWidget', 'footer_sidebar', 'wowy-vi', 0, '{\"id\":\"SiteInfoWidget\",\"name\":\"V\\u1ec1 ch\\u00fang t\\u00f4i\"}', '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
 (12, 'CustomMenuWidget', 'footer_sidebar', 'wowy-vi', 1, '{\"id\":\"CustomMenuWidget\",\"name\":\"Danh m\\u1ee5c s\\u1ea3n ph\\u1ea9m\",\"menu_id\":\"danh-muc-san-pham\"}', '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
 (13, 'CustomMenuWidget', 'footer_sidebar', 'wowy-vi', 2, '{\"id\":\"CustomMenuWidget\",\"name\":\"Th\\u00f4ng tin\",\"menu_id\":\"thong-tin\"}', '2021-08-24 08:00:33', '2021-08-24 08:00:33'),
@@ -6175,7 +6367,7 @@ ALTER TABLE `ads`
 -- AUTO_INCREMENT for table `audit_histories`
 --
 ALTER TABLE `audit_histories`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=296;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=356;
 
 --
 -- AUTO_INCREMENT for table `categories`
@@ -6277,7 +6469,7 @@ ALTER TABLE `ec_order_product`
 -- AUTO_INCREMENT for table `ec_products`
 --
 ALTER TABLE `ec_products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=87;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=113;
 
 --
 -- AUTO_INCREMENT for table `ec_product_attributes`
@@ -6295,13 +6487,13 @@ ALTER TABLE `ec_product_attribute_sets`
 -- AUTO_INCREMENT for table `ec_product_categories`
 --
 ALTER TABLE `ec_product_categories`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `ec_product_category_product`
 --
 ALTER TABLE `ec_product_category_product`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=128;
 
 --
 -- AUTO_INCREMENT for table `ec_product_collections`
@@ -6313,7 +6505,7 @@ ALTER TABLE `ec_product_collections`
 -- AUTO_INCREMENT for table `ec_product_collection_products`
 --
 ALTER TABLE `ec_product_collection_products`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `ec_product_cross_sale_relations`
@@ -6331,7 +6523,7 @@ ALTER TABLE `ec_product_labels`
 -- AUTO_INCREMENT for table `ec_product_related_relations`
 --
 ALTER TABLE `ec_product_related_relations`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `ec_product_tags`
@@ -6451,13 +6643,13 @@ ALTER TABLE `language_meta`
 -- AUTO_INCREMENT for table `media_files`
 --
 ALTER TABLE `media_files`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=209;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=260;
 
 --
 -- AUTO_INCREMENT for table `media_folders`
 --
 ALTER TABLE `media_folders`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `media_settings`
@@ -6487,7 +6679,7 @@ ALTER TABLE `menu_nodes`
 -- AUTO_INCREMENT for table `meta_boxes`
 --
 ALTER TABLE `meta_boxes`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=136;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=164;
 
 --
 -- AUTO_INCREMENT for table `migrations`
@@ -6571,7 +6763,7 @@ ALTER TABLE `simple_slider_items`
 -- AUTO_INCREMENT for table `slugs`
 --
 ALTER TABLE `slugs`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=206;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=234;
 
 --
 -- AUTO_INCREMENT for table `tags`
