@@ -10,11 +10,10 @@ Website Cozy production merupakan penyambung Cozy production terhadap dunia maya
 # Website Link
 https://cozypro.xyz/
 
-# [List of Feature](./doc/spec/List_of_Feature.pdf)   
+# List of Feature
+https://github.com/Pramudio-Ilkom/Cozy-Production-Website/blob/Sprint-1/doc/spec/List_of_Feature.pdf
 
-# Progress
-
-## Progress tanggal 3 - 19:
+# Progress terbaru
 
 Sesuai rencana kami menggunakan Laravel sebagai basis backend dari website kami. Pada awalnya berjalan lancar dengan Raffi berhasil mendeploy feature utama kami yaitu blog berserta admin panelnya dalam minggu pertama mengerjakan. Raffi bekerjasama dengan Pramudio dalam menghubungkan Database sql dengan website.
 
