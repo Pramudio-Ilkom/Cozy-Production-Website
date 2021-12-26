@@ -3,8 +3,12 @@ Project Website Cozy Production merupakan penyambung Cozy production terhadap du
 
 Website Cozy Production mencakup beberapa fitur untuk 3 kelompok yang berbeda yaitu pengunjung, pengguna dan admin. Pengujung hanya bisa melihat-lihat website, sementara pengguna bisa melakukan pemesanan barang dan review barang selain melihat-lihat website. Admin memiliki akses ke panel admin dimana admin dapat mengatur produk, tampilan _carousel_, dan mengatur pesanan pengguna.
 
+<p align="center">
+	<img src ="./PNGs/hatosan-2.png" width="128" />
+</p>
+
 # Client
-Nama: Josua Christian Raymond
+Nama: Josua Christian Raymond<br>
 Status: Ketua sekaligus found dari lingkar karya Cozy Production
 
 <p align="center">
