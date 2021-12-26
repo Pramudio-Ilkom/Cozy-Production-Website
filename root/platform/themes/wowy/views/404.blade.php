@@ -5,7 +5,7 @@
 
 {!! Theme::partial('header') !!}
 
-<main class="main page-404" style="background-image: url('https://cdn.discordapp.com/attachments/702348374136979486/917446596235501638/background.jpg'); background-repeat:no-repeat; background-position:center; background-attachment:fixed; background-size:cover">
+<main class="main page-404">
     <div class="container">
         <div class="row align-items-center text-center">
             <div class="col-lg-8 m-auto mt-50 mb-50">

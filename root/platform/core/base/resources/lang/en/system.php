@@ -33,7 +33,7 @@ return [
         'info_description'         => 'All information about current system configuration.',
     ],
     'info'                            => [
-        'title'       => 'System information',
+        'title'       => 'Informasi sistem',
         'cache'       => 'Cache',
         'locale'      => 'Active locale',
         'environment' => 'Environment',

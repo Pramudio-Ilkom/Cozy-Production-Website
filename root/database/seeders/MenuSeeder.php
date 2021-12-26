@@ -174,7 +174,7 @@ class MenuSeeder extends BaseSeeder
                     ],
                 ],
                 [
-                    'name'  => 'Information',
+                    'name'  => 'Media Sosial',
                     'slug'  => 'information',
                     'items' => [
                         [

@@ -185,7 +185,7 @@
                     </div>
                 </div>
             </div>
-            <div class="header-bottom header-bottom-bg-color sticky-bar gray-bg sticky-blue-bg">
+            <div class="header-bottom header-bottom-bg-color sticky-bar">
                 <div class="container">
                     <div class="header-wrap header-space-between position-relative main-nav">
                         @if (theme_option('logo_light'))
@@ -273,12 +273,6 @@
                                 !!}
                             </nav>
                         </div>
-
-                        @if (theme_option('hotline'))
-                            <div class="hotline d-none d-lg-block">
-                                <p><i class="fa fa-phone-alt"></i><span>{{ __('Hotline') }}</span> {{ theme_option('hotline') }}</p>
-                            </div>
-                        @endif
 
                         @if (is_plugin_active('ecommerce'))
                             <div class="header-action-right d-block d-lg-none">

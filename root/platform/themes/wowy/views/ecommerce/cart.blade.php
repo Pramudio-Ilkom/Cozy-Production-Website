@@ -135,7 +135,7 @@
                         </div>
                     @endif
                 @else
-                    <p class="text-center">{{ __('Your cart is empty!') }}</p>
+                    <p class="text-center">{{ __('Keranjang kosong') }}</p>
                 @endif
             </div>
         </div>

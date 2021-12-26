@@ -4,6 +4,6 @@ return [
     'statuses' => [
         'draft'     => 'Draft',
         'pending'   => 'Pending',
-        'published' => 'Published',
+        'published' => 'Online',
     ],
 ];
