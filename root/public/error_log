@@ -1,0 +1,28 @@
+[26-Dec-2021 03:56:38 UTC] PHP Fatal error:  Uncaught RuntimeException: Translation file [/home/zeqaxkpi/cozypro.xyz/platform/themes/wowy/lang/en.json] contains an invalid JSON structure. in /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php:145
+Stack trace:
+#0 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php(741): Illuminate\Translation\FileLoader->Illuminate\Translation\{closure}(Array, '/home/zeqaxkpi/...', 0)
+#1 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php(152): Illuminate\Support\Collection->reduce(Object(Closure), Array)
+#2 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php(63): Illuminate\Translation\FileLoader->loadJsonPaths('en')
+#3 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/Translator.php(279): Illuminate\Translation\FileLoader->load('en', '*', '*')
+#4 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/ in /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php on line 145
+[26-Dec-2021 03:56:45 UTC] PHP Fatal error:  Uncaught RuntimeException: Translation file [/home/zeqaxkpi/cozypro.xyz/platform/themes/wowy/lang/en.json] contains an invalid JSON structure. in /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php:145
+Stack trace:
+#0 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php(741): Illuminate\Translation\FileLoader->Illuminate\Translation\{closure}(Array, '/home/zeqaxkpi/...', 0)
+#1 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php(152): Illuminate\Support\Collection->reduce(Object(Closure), Array)
+#2 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php(63): Illuminate\Translation\FileLoader->loadJsonPaths('en')
+#3 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/Translator.php(279): Illuminate\Translation\FileLoader->load('en', '*', '*')
+#4 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/ in /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php on line 145
+[26-Dec-2021 03:56:46 UTC] PHP Fatal error:  Uncaught RuntimeException: Translation file [/home/zeqaxkpi/cozypro.xyz/platform/themes/wowy/lang/en.json] contains an invalid JSON structure. in /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php:145
+Stack trace:
+#0 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php(741): Illuminate\Translation\FileLoader->Illuminate\Translation\{closure}(Array, '/home/zeqaxkpi/...', 0)
+#1 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php(152): Illuminate\Support\Collection->reduce(Object(Closure), Array)
+#2 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php(63): Illuminate\Translation\FileLoader->loadJsonPaths('en')
+#3 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/Translator.php(279): Illuminate\Translation\FileLoader->load('en', '*', '*')
+#4 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/ in /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php on line 145
+[26-Dec-2021 03:56:46 UTC] PHP Fatal error:  Uncaught RuntimeException: Translation file [/home/zeqaxkpi/cozypro.xyz/platform/themes/wowy/lang/en.json] contains an invalid JSON structure. in /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php:145
+Stack trace:
+#0 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Collections/Traits/EnumeratesValues.php(741): Illuminate\Translation\FileLoader->Illuminate\Translation\{closure}(Array, '/home/zeqaxkpi/...', 0)
+#1 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php(152): Illuminate\Support\Collection->reduce(Object(Closure), Array)
+#2 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php(63): Illuminate\Translation\FileLoader->loadJsonPaths('en')
+#3 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/Translator.php(279): Illuminate\Translation\FileLoader->load('en', '*', '*')
+#4 /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/ in /home/zeqaxkpi/cozypro.xyz/vendor/laravel/framework/src/Illuminate/Translation/FileLoader.php on line 145
