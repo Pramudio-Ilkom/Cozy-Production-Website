@@ -1,5 +1,5 @@
 <p align="center">
-	<img src ="./PNGs/hatosan-2.png" width="256" />
+	<img src ="./PNGs/hatosan-2.png" width="128" />
 </p>
 
 # Cozy Production Website
