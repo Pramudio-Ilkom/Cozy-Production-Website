@@ -13,16 +13,6 @@ https://cozypro.xyz/
 # List of Feature
 https://github.com/Pramudio-Ilkom/Cozy-Production-Website/blob/Sprint-1/doc/spec/List_of_Feature.pdf
 
-# Progress terbaru
-
-Sesuai rencana kami menggunakan Laravel sebagai basis backend dari website kami. Pada awalnya berjalan lancar dengan Raffi berhasil mendeploy feature utama kami yaitu blog berserta admin panelnya dalam minggu pertama mengerjakan. Raffi bekerjasama dengan Pramudio dalam menghubungkan Database sql dengan website.
-
-Atas persetujuan klien, kami kembali mengubah tampilan web dengan templat yang baru. Nehemiah mendesain ulang navbar, footer dan landing dan disesuaikan dengan feature yang akan diimplementasikan. Namun banyak lokasi dari item yang belum disesuaikan sehingga website terlihat agak berantakan.
-
-Minggu setelahnya progress melambat dikarenakan urusan kampus anggota, tapi disela waktu yang ada Raffi dan Dio berhasil mengimplementasi search system dan login system untuk website. Nehemiah lalu membuat tampilan untuk halaman yang berhubungan seperti Login, Register.
-
-Minggu setelahnya kami mengimplementasikan sistem keranjang dan checkout. Untuk sementara payment belum ditentukan dan belum ada output untuk admin melihat order barang. DB barang sudah dibuat dengan contoh barang telah dimasukan, namun keseluruhan produk belum diinput karena klien sedang sibuk dan tidak bisa memberikan data lainnya.
-
 # Mock up yang terpilih
 <p align="center">
 	<img src ="./doc/sketch/Mockup_2(terpilih).jpg"/>
