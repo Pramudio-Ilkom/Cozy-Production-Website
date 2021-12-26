@@ -9,7 +9,7 @@ Website Cozy Production mencakup beberapa fitur untuk 3 kelompok yang berbeda ya
 
 # Client
 Nama: Josua Christian Raymond<br>
-Status: Ketua sekaligus found dari lingkar karya Cozy Production
+Status: Ketua sekaligus founder dari lingkar karya Cozy Production
 
 <p align="center">
 	<img src ="./PNGs/Josua.jpg" width="256" />
