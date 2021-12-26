@@ -16,13 +16,13 @@ Josua adalah ketua sekaligus pendiri lingkar karya Cozy Production. Josua pertam
 Josua menginginkan adanya sebuah website bagi Cozy Production untuk melanjutkan penjualan diluar waktu pameran Cozy Frontier dan pameran-pameran lainnya. Selain itu Josua menginginkan agar website tersebut memiliki fitur blogging, agar Cozy Production dapat menulis tentang berita dan pengumuman terbaru dari lingkar karya mereka.
 
 # Team Member
-- [Pramudio] NIM: 1313619013 <a href="https://github.com/Pramudio-Ilkom">Github</a> <br>
+- [ Pramudio ] NIM: 1313619013 <a href="https://github.com/Pramudio-Ilkom">Github</a> <br>
 Pramudio adalah mahasiswa Ilmu Komputer UNJ angkatan 2019. Pramudio bertugas mengurus backend dan Database bersama dengan Raffi.
 
-- [Nehemiah Austen Pison] NIM: 1313619021 <a href="https://github.com/EzraelVio">Github</a> <br>
+- [ Nehemiah Austen Pison ] NIM: 1313619021 <a href="https://github.com/EzraelVio">Github</a> <br>
 Nehemiah adalah mahasiswa Ilmu Komputer UNJ angkatan 2019. Nehemiah bertugas dengan Front-end dan tampilan desain. Hal ini dikarenakan desain Nehemiah lah yang terpilih menjad tampilan depan website Cozy Production.
 
-- [Muhammad Raffi Athallah Miraza] NIM: 1313619026 <a href="https://github.com/rafimir20">Github</a> <br>
+- [ Muhammad Raffi Athallah Miraza ] NIM: 1313619026 <a href="https://github.com/rafimir20">Github</a> <br>
 Raffi adalah mahasiswa Ilmu Komputer UNJ angkatan 2019. Raffi bertugas bersama Pramudio dalem mengurus backend dan Database. Raffi lebih banyak bertugas di implementasi feature terutama feature admin panel.
 
 # Website Link
