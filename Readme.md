@@ -41,11 +41,10 @@ Raffi adalah mahasiswa Ilmu Komputer UNJ angkatan 2019. Raffi bertugas bersama P
 <ul>
 <li>Website Link:
 	<a href="https://cozypro.xyz/">cozypro.xyz</a>
-
 <li>User Manual File:
 
 <li>Website Demonstration Video:
-
+	<a href="https://youtu.be/MfPszWK76yg">Youtube</a>
 <li>Front Page Demonstration Video:
 	<a href="https://youtu.be/EKLE2UN-dqI">Youtube</a>
 <li>Client Reception Video:
