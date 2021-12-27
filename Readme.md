@@ -49,7 +49,7 @@ Raffi adalah mahasiswa Ilmu Komputer UNJ angkatan 2019. Raffi bertugas bersama P
 <li>Front Page Demonstration Video:
 	<a href="https://youtu.be/EKLE2UN-dqI">Youtube</a>
 <li>Client Reception Video:
-
+	<a href="https://www.youtube.com/watch?v=nUJ-vduOSjQ">Youtube</a>
 <li>List of Features
 	<a href="/doc/spec/List_of_Feature.pdf">List_of_Feature.pdf</a>
 </ul>
